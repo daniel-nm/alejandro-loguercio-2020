@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -25,6 +25,11 @@ const Navigation = ({toggleMenu, setToggleMenu}) => {
 
   // App language
   const [language, setLanguage] = useContext(LanguageContext);
+
+  const [dimensions, setDimensions] = useState({
+    height: window.innerHeight,
+    width: window.innerWidth
+  });
 
   // Handle change of app language
   function changeLanguage(e) {
@@ -55,6 +60,7 @@ const Navigation = ({toggleMenu, setToggleMenu}) => {
     setToggleMenu(false);
   }, [setToggleMenu, location]);
 
+
   useEffect(() => {
     // Get viewport height and we multiple it by 1% to get a value for a vh unit
     let vh = window.innerHeight * 0.01;
@@ -62,7 +68,28 @@ const Navigation = ({toggleMenu, setToggleMenu}) => {
     // Set value in the --vh custom propertz to the roof of the document
     document.documentElement.style.setProperty("--vh", `${vh}px`);
 
-  }, [])
+  }, []);
+
+  useEffect(() => {
+
+    function handleResize() {
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
+      setDimensions({
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+    }
+
+    // Listen to resize element
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    }
+
+  }, [dimensions])
 
   return (
     <>
