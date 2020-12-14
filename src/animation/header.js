@@ -33,7 +33,7 @@ export const slideUp = {
 
 // Footer slide up animation
 export const footerSlideUp = {
-  initial: {y: 100},
+  initial: {y: "100px"},
   animate: {y: 0},
-  exit: {y: 100}
+  exit: {y: "100px"}
 }
