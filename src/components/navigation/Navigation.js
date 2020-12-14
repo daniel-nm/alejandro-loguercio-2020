@@ -55,6 +55,15 @@ const Navigation = ({toggleMenu, setToggleMenu}) => {
     setToggleMenu(false);
   }, [setToggleMenu, location]);
 
+  useEffect(() => {
+    // Get viewport height and we multiple it by 1% to get a value for a vh unit
+    let vh = window.innerHeight * 0.01;
+
+    // Set value in the --vh custom propertz to the roof of the document
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+
+  }, [])
+
   return (
     <>
       <AnimatePresence>

@@ -98,7 +98,9 @@ export const MenuContent = styled(motion.div)`
 // Nav list
 export const NavList = styled.div`
   width: 89.067%;
-  height: 100vh;
+  /* Fallback */
+  height: 100vh; 
+  height: calc(var(--vh, 1vh) * 100);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
