@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
+// Components
+import Navigation from "./navigation/Navigation";
+
 // Styles
 import { Nav } from "../styles/components/headerStyles";
 
@@ -44,6 +47,8 @@ const Header = () => {
         <span className={toggleMenu ? "rotated rotated--top" : "rotated--no"}></span>
         <span className={toggleMenu ? "rotated rotated--bottom" : "rotated--no"}></span>
       </button>
+      {/* Navigation menu */}
+      <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
     </Nav>
   )
 }

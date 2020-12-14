@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 // Context
 import LanguageContext from "./context/LanguageContext";
 
@@ -9,12 +11,14 @@ import Header from "./components/Header";
 
 function App() {
 
-  // TODO: manually set to english but needs changing to useState hook once button to change language is created on navigation
+  // User app language
+  const userLang = localStorage.getItem("AL - Lang") ? localStorage.getItem("AL - Lang") : "en";
+
   // App language
-  const lang = "en";
+  const langHook = useState(userLang);
 
   return (
-    <LanguageContext.Provider value={lang}>
+    <LanguageContext.Provider value={langHook}>
       <GlobalStyle />
       <Header />
     </LanguageContext.Provider>

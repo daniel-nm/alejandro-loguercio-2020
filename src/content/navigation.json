@@ -1,0 +1,50 @@
+{
+  "en": {
+    "main" : [
+      {
+        "id": 0,
+        "link": "Biography",
+        "to": "/biography"
+      },
+      {
+        "id": 1,
+        "link": "Projects",
+        "to": "/projects"
+      },
+      {
+        "id": 2,
+        "link": "Teaching",
+        "to": "/teaching"
+      },
+      {
+        "id": 3,
+        "link": "Contact",
+        "to": "/contact"
+      }
+    ]
+  },
+  "de" : {
+    "main": [
+      {
+        "id": 0,
+        "link": "Biografie",
+        "to": "/biografie"
+      },
+      {
+        "id": 1,
+        "link": "Projekte",
+        "to": "/projekte"
+      },
+      {
+        "id": 2,
+        "link": "Unterricht",
+        "to": "/unterricht"
+      },
+      {
+        "id": 3,
+        "link": "Kontakt",
+        "to": "/kontakt"
+      }
+    ]
+  }
+}
