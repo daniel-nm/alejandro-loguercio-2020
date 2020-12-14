@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 // Styles
 import { Nav } from "../styles/components/headerStyles";
 
+// Motion
+import { transition } from "../animation/header";
+
 const Header = () => {
 
   // Toggle navigation menu
@@ -21,7 +24,11 @@ const Header = () => {
   }
 
   return (
-    <Nav>
+    <Nav
+      initial={{y: -70, opacity: 0}}
+      animate={{y: 0, opacity: 1}}
+      transition={transition}
+    >
       {/* Logo */}
       <Link className="logo" to="/">Alejandro Loguercio</Link>
       {/* Menu button */}
