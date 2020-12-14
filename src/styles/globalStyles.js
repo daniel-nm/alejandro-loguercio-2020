@@ -17,10 +17,11 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-family: var(--sans-serif);
     font-size: 100%;
-    line-height: 1.5;
-    margin: 0;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    margin: 0;
+
 
     /* Hide scrollbar for IE, Edge and Firefox */
     -ms-overflow-style: none;  /* IE and Edge */
@@ -49,21 +50,21 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
 
     &::after {
-      background: rgba(34, 102, 166, 0.25);
-      bottom: -6px;
       content: "";
-      height: calc(100% - 8px);
-      left: 12px;
+      background: rgba(34, 102, 166, 0.25);
       position: absolute;
-      transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+      bottom: -6px;
+      left: 12px;
+      height: calc(100% - 8px);
       width: calc(100% - 8px);
+      transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
       z-index: -1;
     }
 
     &:hover::after {
       bottom: -2px;
-      height: 100%;
       left: 0;
+      height: 100%;
       width: 100%;
     }
   }
