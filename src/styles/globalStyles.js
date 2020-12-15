@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
+import { motion } from "framer-motion";
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -71,7 +72,7 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 // Container for sections
-export const Container = styled.section`
+export const Container = styled(motion.section)`
   margin: 0 auto;
   width: 89.067%;
 
