@@ -80,3 +80,48 @@ export const Subtitle = styled(motion.p)`
     margin-bottom: 3rem;
   }
 `;
+
+
+// **********
+// HOME PRESS
+// **********
+
+export const Press = styled.div`
+  margin-top: 6rem;
+
+  /* Tablet */
+  @media screen and (min-width: 48em) {
+    margin-top: 10rem;
+  }
+
+  /* Desktop */
+  @media screen and (min-width: 48em) {
+    margin: 15rem auto 0;
+    width: 54.271%,
+  }
+`
+
+// Press cite
+export const PressText = styled.p`
+  color: var(--dark-gray);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+`
+
+// Press author
+export const PressAuthor = styled.p`
+  color: var(--light-gray);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+
+  &:.before {
+    content: "";
+    background: var(--light-gray);
+    display: inline-block;
+    height: 1px;
+    width: 2rem;
+    margin-right: 0.5rem;
+  }
+`

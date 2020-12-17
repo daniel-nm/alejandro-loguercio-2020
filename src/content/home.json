@@ -4,6 +4,10 @@
       "title": "Violinist • Soloist",
       "text": "Celebrated for his musical exuberance and virtuosity, Venezuelan violinist Alejandro Loguercio leads a dynamic performance career as a soloist, chamber and orchestral musician.",
       "link": "More about Alejandro"
+    },
+    "press": {
+      "text": "Violinist Alejandro Loguercio is beginning to spread his wings as a composer as well, showcasing this talent with his “Tango” encore, a sophisticated and virtuosic piece, much like his own playing.",
+      "author": "Frankfurter Neue Presse"
     }
   },
   "de": {
@@ -12,5 +16,9 @@
       "text": "Für seine ausserordentliche Musikalität und Virtuosität gefeiert, führt der venezolanische Geiger Alejandro Loguercio eine aufstrebende Karriere als Solist, Kammermusiker und Orchestermusiker.",
       "link": "Mehr über Alejandro"
     }
+  },
+  "press": {
+    "text": "Violinist Alejandro Loguercio schon beginnt auch Alejandro Loguercio zu komponieren, sein Tango bildete die Zugabe, anspruchsvoll und virtuos auch er.",
+    "author": "Frankfurter Neue Presse"
   }
 }
