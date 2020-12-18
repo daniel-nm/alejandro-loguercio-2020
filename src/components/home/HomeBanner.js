@@ -12,6 +12,9 @@ import { SectionFlex, Div, BannerImg, Title, Subtitle } from "../../styles/compo
 import { transition, parent, slideUp } from "../../animation/home";
 
 const HomeBanner = ({ content, language }) => {
+
+  const data = content[language].banner;
+
   return (
     <SectionFlex>
       <Div className="banner__img">
@@ -34,18 +37,18 @@ const HomeBanner = ({ content, language }) => {
       >
         <Div>
           <Title variants={slideUp} transition={transition}>
-            {content[language].banner.title}
+            {data.title}
           </Title>
         </Div>
         <Div>
           <Subtitle variants={slideUp} transition={transition}>
-            {content[language].banner.text}
+            {data.text}
           </Subtitle>
           <motion.p
             variants={slideUp} 
             transition={transition}
           >
-            <Link to="/biography">{content[language].banner.link}</Link>
+            <Link to="/biography">{data.link}</Link>
           </motion.p>
         </Div>
       </Container>

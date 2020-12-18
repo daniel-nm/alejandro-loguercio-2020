@@ -15,6 +15,8 @@ import { transition, parent, slideDown } from "../../animation/home";
 
 const ProjectsMenu = ({ content, toggleMenu, setToggleMenu, language }) => {
 
+  const data = content[language].data;
+
   // Location
   const location = useLocation();
 
@@ -74,7 +76,7 @@ const ProjectsMenu = ({ content, toggleMenu, setToggleMenu, language }) => {
               animate="animate"
               exit="exit"
             >
-              {content[language].data.map((project) => (
+              {data.map((project) => (
                 <ListItem 
                   key={project.id}  
                   to={{

@@ -13,6 +13,8 @@ import { scrollView, transition } from "../../animation/home";
 
 const HomePress = ({ content, language }) => {
 
+  const data = content[language].press;
+
   // Scroll animation
   const animation = useAnimation();
   const [contentRef, inView] = useInView({
@@ -37,10 +39,10 @@ const HomePress = ({ content, language }) => {
     >
       <Press>
         <PressText>
-          {content[language].press.text}
+          {data.text}
         </PressText>
         <PressAuthor>
-          {content[language].press.author}
+          {data.author}
         </PressAuthor>
       </Press>
     </Container>

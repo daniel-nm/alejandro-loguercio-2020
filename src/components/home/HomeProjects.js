@@ -19,11 +19,13 @@ import { Projects, Project } from "../../styles/components/homeStyles";
 
 const HomeProjects = ({ content, language }) => {
 
+  const data = ProjectsContent[language].data;
+
   // Animation
   const animation = useAnimation();
   const [contentRef, inView] = useInView({
     triggerOnce: true,
-    rootMargin: "50px",
+    rootMargin: "150px",
   });
 
   useEffect(() => {
@@ -48,7 +50,7 @@ const HomeProjects = ({ content, language }) => {
   return (
     <Projects exit={{opacity: 0}}>
       <div className="projects__flex">
-        {ProjectsContent[language].data.slice(0,3).map((project) => (
+        {data.slice(0,3).map((project) => (
           <Project
             key={project.id}
             bg={require(`../../assets/img/${project.images.main}`).default}
