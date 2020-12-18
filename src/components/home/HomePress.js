@@ -5,8 +5,8 @@ import { Container } from "../../styles/globalStyles";
 import { Press, PressText, PressAuthor } from "../../styles/components/homeStyles";
 
 // Scroll behaviour
-import { useInView } from "react-intersection-observer"
-import { useAnimation } from "framer-motion"
+import { useInView } from "react-intersection-observer";
+import { useAnimation } from "framer-motion";
 
 // Motion
 import { scrollView, transition } from "../../animation/home";

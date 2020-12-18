@@ -8,6 +8,9 @@
     "press": {
       "text": "Violinist Alejandro Loguercio is beginning to spread his wings as a composer as well, showcasing this talent with his “Tango” encore, a sophisticated and virtuosic piece, much like his own playing.",
       "author": "Frankfurter Neue Presse"
+    },
+    "projects": {
+      "link": "More Projects"
     }
   },
   "de": {
@@ -19,6 +22,9 @@
     "press": {
       "text": "Violinist Alejandro Loguercio schon beginnt auch Alejandro Loguercio zu komponieren, sein Tango bildete die Zugabe, anspruchsvoll und virtuos auch er.",
       "author": "Frankfurter Neue Presse"
+    },
+    "projects": {
+      "link": "Mehr Projekte"
     }
   }
 }
