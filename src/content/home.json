@@ -24,6 +24,10 @@
         "text": "Learning or playing an instrument like the violin and making music is not only reserved for privileged children or people interested in classical music",
         "link": "Teaching for adults"
        }
+    },
+    "contact": {
+      "text": "Interested in hiring me? Let’s get in touch.",
+      "link": "Contact me"
     }
   },
   "de": {
@@ -51,6 +55,10 @@
        "text": "Ein Instrument wie Geige zu erlernen oder zu spielen und Musik zu machen, ist nicht nur privilegierten Kindern oder Menschen vorbehalten, die sich für klassische Musik interessieren.",
        "link": "Unterricht für Erwachsene"
       }
+    },
+    "contact": {
+      "text": "Möchten Sie mich einstellen? Nehmen wir Kontakt auf.",
+      "link": "Kontaktiere mich"
     }
   }
 }
