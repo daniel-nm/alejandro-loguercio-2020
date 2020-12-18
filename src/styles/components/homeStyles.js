@@ -187,6 +187,7 @@ export const Project = styled(motion.div)`
   flex-direction: column;
   justify-content: flex-end;
 
+  /* Tablet */
   @media screen and (min-width: 48em) {
     background-position: top;
     height: 500px;
@@ -201,6 +202,7 @@ export const Project = styled(motion.div)`
     font-size: 1.25rem;
     margin: 0;
     
+    /* Desktop */
     @media screen and (min-width: 64em) {
       font-size: 2rem;
     }
@@ -265,6 +267,7 @@ export const MenuContent = styled(motion.div)`
       text-transform: uppercase;
       overflow: hidden;
 
+      /* Mobile when landscape position */
       @media screen and (max-height: 31.25em) {
         margin-bottom: 0.5rem;
       }
@@ -310,6 +313,7 @@ export const MenuContent = styled(motion.div)`
           transition: opacity 0.2s ease-in-out;
           vertical-align: middle;
 
+          /* Desktop */
           @media screen and (min-width: 64em) {
             margin-left: 0.5rem;
           }
@@ -317,6 +321,7 @@ export const MenuContent = styled(motion.div)`
           svg {
             height: 1.25rem;
 
+            /* Tablet */
             @media screen and (min-width: 48em) {
               height: 1.75rem;
             }
@@ -359,6 +364,7 @@ export const MenuHeader = styled(motion.div)`
       all: unset;
     }
 
+    /* Desktop */
     @media screen and (min-width: 64em) {
       font-size: 1.125rem;
     }
@@ -392,4 +398,58 @@ export const MenuHeader = styled(motion.div)`
       transition: transform 0.2s ease-in-out;
     }
   }
+`
+
+// **********
+// HOME CLASSES
+// **********
+
+export const ClassSection = styled(motion.section)`
+  background-color: rgba(204, 206, 214, 0.25);
+  margin-bottom: 6rem;
+  padding: 4rem 0;
+
+  .class__children {
+    margin-bottom: 3.5rem;
+  }
+
+  /* Tablet */
+  @media screen and (min-width: 48em) {
+    margin-top: 10rem;
+    padding: 6rem 0;
+  }
+
+ /* Desktop */
+  @media screen and (min-width: 64em) {
+    margin-top: 15rem;
+    padding: 8rem 0;
+
+    .flex {
+      display: flex;
+    }
+
+    .class__children {
+      margin-bottom: 0;
+      margin-right: 5rem;
+    }
+  }
+`
+
+// Title
+export const ClassTitle = styled(motion.h2)`
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+`
+
+// Subtitle
+export const ClassSubtitle = styled.h3`
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+`
+
+// Text
+export const ClassText = styled.p`
+  color: var(--dark-gray);
+  margin-bottom: 1.5rem;
 `

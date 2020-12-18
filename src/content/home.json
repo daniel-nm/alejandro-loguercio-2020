@@ -11,6 +11,19 @@
     },
     "projects": {
       "link": "More Projects"
+    },
+    "classes": {
+      "title": "Violin lessons",
+      "children": {
+        "title": "Children",
+        "text": "Introducing music to a child for the first time and getting them excited about the violin is not only a great privilege for me, but also a very great responsibility.",
+        "link": "Teaching for children"
+      },
+      "adults": {
+        "title": "Adults",
+        "text": "Learning or playing an instrument like the violin and making music is not only reserved for privileged children or people interested in classical music",
+        "link": "Teaching for adults"
+       }
     }
   },
   "de": {
@@ -25,6 +38,19 @@
     },
     "projects": {
       "link": "Mehr Projekte"
+    },
+    "classes": {
+      "title": "Violinunterricht",
+      "children": {
+        "title": "Kinder",
+        "text": "Einem Kind das erste Mal Musik nahezulegen und es für Geige zu begeistern, ist nicht nur ein großes Privileg für mich, sondern auch eine sehr große Verantwortung.",
+        "link": "Unterricht für Kinder"
+      },
+      "adults": {
+       "title": "Teenager und Erwachsene",
+       "text": "Ein Instrument wie Geige zu erlernen oder zu spielen und Musik zu machen, ist nicht nur privilegierten Kindern oder Menschen vorbehalten, die sich für klassische Musik interessieren.",
+       "link": "Unterricht für Erwachsene"
+      }
     }
   }
 }
