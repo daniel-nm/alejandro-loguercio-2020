@@ -91,7 +91,7 @@ const HomeProjects = ({ content, language }) => {
           {content[language].projects.link}
         </button>
       </motion.div>
-      <ProjectsMenu language={language} setToggleMenu={setToggleMenu} toggleMenu={toggleMenu} />
+      <ProjectsMenu content={ProjectsContent} language={language} setToggleMenu={setToggleMenu} toggleMenu={toggleMenu} />
     </Projects>
   )
 }

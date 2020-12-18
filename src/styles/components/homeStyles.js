@@ -235,3 +235,161 @@ export const Project = styled(motion.div)`
     }
   }
 `
+
+// Projects Menu
+export const MenuContent = styled(motion.div)`
+  background: var(--white);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 8;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 5.4660%;
+    z-index: -1;
+
+    li {
+      font-weight: 900;
+      list-style: none;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      overflow: hidden;
+
+      @media screen and (max-height: 31.25em) {
+        margin-bottom: 0.5rem;
+      }
+
+      .nav__link {
+        color: var(--black);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        font-family: var(--serif);
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-decoration: underline;
+        text-transform: uppercase;
+        transition: all 0.2s ease-in-out;
+        width: 100%;
+        
+        &::after {
+          all: unset;
+        }
+
+        &:hover:after {
+          all: unset;
+        }
+
+        @media screen and (min-width: 48em) {
+          font-size: 2rem;
+        }
+
+        @media screen and (max-height: 31.25em) {
+          font-size: 1.5rem;
+        }
+
+
+        .nav__link__title {
+          display: inline-block;
+          overflow: hidden;
+        }
+
+        .arrow {
+          margin-left: 0.25rem;
+          opacity: 0;
+          transition: opacity 0.2s ease-in-out;
+          vertical-align: middle;
+
+          @media screen and (min-width: 64em) {
+            margin-left: 0.5rem;
+          }
+          
+          svg {
+            height: 1.25rem;
+
+            @media screen and (min-width: 48em) {
+              height: 1.75rem;
+            }
+          }
+        }
+
+        &:hover {
+          & .arrow {
+            opacity: 1;
+          }
+        }
+      } 
+    }
+  }
+  
+`;
+
+// Projects Menu Header
+export const MenuHeader = styled(motion.div)`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto 4rem;
+  width: 89.067%;
+
+  .logo {
+    color: var(--black);
+    font-family: var(--serif);
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 9;
+
+    &::after {
+      all: unset;
+    }
+
+    &:hover:after {
+      all: unset;
+    }
+
+    @media screen and (min-width: 64em) {
+      font-size: 1.125rem;
+    }
+  }
+
+  .nav__btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+
+    span {
+      background: var(--black);
+      display: block;
+      width: 27px;
+      height: 1px;
+      margin: 0.5rem;
+    }
+
+    .top {
+      position: relative;
+      top: 0.2rem;
+      transform: rotate(45deg);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .bottom {
+      position: relative;
+      bottom: 0.3rem;
+      transform: rotate(-45deg);
+      transition: transform 0.2s ease-in-out;
+    }
+  }
+`

@@ -21,6 +21,13 @@ export const slideUp = {
   exit: {y: "100px", opacity: 0}
 }
 
+// Slide down transition
+export const slideDown = {
+  initial: {y: "-70px", opacity: 0},
+  animate: {y: 0, opacity: 1},
+  exit: {y: "-70px", opacity: 0}
+}
+
 // Scroll animation
 export const scrollView = {
   visible: {
