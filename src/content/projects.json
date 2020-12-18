@@ -1,0 +1,246 @@
+{
+  "en": {
+    "data": [
+      {
+        "id": 0,
+        "title": "Acros Trio",
+        "description": "Alejandro Loguercio is both the violinist and founder of the renowned Acros Trio. The trio have taken it upon themselves to perform well known trio literature...",
+        "text": [
+          {
+            "para": "Alejandro Loguercio is a violinist and founder of the renowned Acros Trio. The trio has set itself the task of developing and performing works by previously unknown or rarely performed composers from Ibero America in addition to the well-known trio literature." 
+          },
+          {
+            "para": "The Acros Trio is a member of ECMA (European Chamber Music Academy), won one of the prizes in the Windisch competition and has performed at several major festivals such as the Rheingau Music Festival or the Wiener Festwochen."
+          },
+          {
+            "para": "For more information, visit the website:"
+          }
+        ],
+        "linkText": "More about Acros Trio",
+        "website": "www.acrostrio.com",
+        "images": {
+          "main": "acros-trio/acros-trio-b&w.jpg",
+          "secondary": "acros-trio/acros-trio-red.jpg"
+        },
+        "social": "",
+        "url": "acros-trio"
+      },
+      {
+        "id": 1,
+        "title": "Crossmopolitans",
+        "description": "The “Latin american classical crossover” ensemble “Crossmopolitans” was founded and based on the idea of building bridges between classical and popular music...",
+        "text": [
+          {
+            "para": "The “Crossmopolitans” ensemble was founded with the idea of ​​loosening the boundaries between classical and popular music and combining both genres." 
+          },
+          {
+            "para": "The three musicians from South America, who were first class trained in Vienna and already successful, have come together to create new arrangements with pleasure. For example, they reinterpret great masterpieces of classical music by incorporating rhythms from your home countries, folkloric music and modern music and creating new, exciting pieces. With this project you have managed to take the genre “crossover” to a completely new level."
+          }
+        ],
+        "linkText": "More about Crossmopolitans",
+        "website": "",
+        "images": {
+          "main": "crossmopolitans/crosmopolitans.jpg",
+          "secondary": "crossmopolitans/crosmopolitans-music.jpg"
+        },
+        "social": "",
+        "url": "crossmopolitans"
+      },
+      {
+        "id": 2,
+        "title": "Garufa!",
+        "description": "The ensemble “Garufa!” combines Tango with comedy and theater was formed in 2010 and consists of four members one of whom is Alejandro Loguercio...",
+        "text": [
+          {
+            "para": "The ensemble “Garufa!”, Of which Alejandro Loguercio has been one of the four members since 2010, combines tango with comedy and theater." 
+          },
+          {
+            "para": "The ensemble writes and conceives its programs independently and so the original and absolutely unique way in connection with the charisma of the young musicians, “Garufa!” Has already brought it to many of the largest concert halls in Europe and South America."
+          },
+          {
+            "para": "For more information, visit the website:"
+          }
+        ],
+        "linkText": "More about Garufa!",
+        "website": "www.garufa.at",
+        "images": {
+          "main": "garufa/garufa.jpg",
+          "secondary": "garufa/garufa-members-concert.jpg"
+        },
+        "social": "",
+        "url": "garufa"
+      },
+      {
+        "id": 3,
+        "title": "Max Steiner",
+        "description": "Alejandro Loguercio has been 1st concertmaster of the Max Steiner Orchestra since it was founded in 2013...",
+        "text": [
+          {
+            "para": "Alejandro Loguercio has been 1st concertmaster of the Max Steiner Orchestra since it was founded in 2013. The young and dynamic orchestra has specialized in not only recording film music or video game music, but also performing it in large concerts." 
+          },
+          {
+            "para": "For more information, visit the website:"
+          }
+        ],
+        "linkText": "More about Max Steiner Orchestra",
+        "website": "www.maxsteinerorchestra.com",
+        "images": {
+          "main": "max-steiner/alejandro_loguercio_max_steiner_tuning.jpeg",
+          "secondary": "max-steiner/alejandro_loguercio_max_steiner_rehearsing.jpeg"
+        },
+        "social": "",
+        "url": "max-steiner"
+      },
+      {
+        "id": 4,
+        "title": "Collaboration with other musicians",
+        "description": "Alejandro Loguercio also regularly plays in projects of great and famous musicians. For example, he plays the solo violin...",
+        "text": [
+          {
+            "para": "Alejandro Loguercio also regularly plays in projects of great and famous musicians." 
+          },
+          {
+            "para": "For example, he plays the solo violin in the ensemble of Ksenija Sidorova, with whom he recorded the CD “Carmen” in 2016 for Deutsche Grammophon."
+          },
+          {
+            "para": "He also regularly plays as solo violinist in the rojo tango show of star baritone Erwin Schrott."
+          },
+          {
+            "para": "For more information, visit the websites:"
+          }
+        ],
+        "linkText": "More about collaboration with other musicians",
+        "website": "www.ksenijasidorova.com",
+        "website2": "www.erwinschrott.com",
+        "images": {
+          "main": "collaboration/collaboration-artists-concert.jpg",
+          "secondary": "collaboration/collaboration-artists.jpg"
+        },
+        "social": "",
+        "url": "max-collaboration"
+      }
+    ]
+  },
+  "de": {
+    "data": [
+      {
+        "id": 0,
+        "title": "Acros Trio",
+        "description": "Alejandro ist Geiger und Gründer des renommierten Acros Trio. Das Trio hat es sich zur Aufgabe gemacht, neben der allseits bekannten Trio-Literatur...",
+        "text": [
+          {
+            "para": "Alejandro Loguercio ist Geiger und Gründer des renommierten Acros Trio. Das Trio hat es sich zur Aufgabe gemacht, neben der allseits bekannten Trio-Literatur auch Werke von bisher unbekannten oder selten gespielten Komponisten aus Iberoamerika zu erarbeiten und auch aufzuführen." 
+          },
+          {
+            "para": "Das Acros Trio ist Mitglied von ECMA (European Chamber Music Academy), gewann einen der Preise im Windisch-Wettbewerb und trat bereits bei mehreren großen Festivals wie dem Rheingau Musik-Festival oder den Wiener Festwochen auf."
+          },
+          {
+            "para": "Für mehr Informationen besuchen Sie die Website:"
+          }
+        ],
+        "linkText": "Mehr über Acros Trio",
+        "website": "www.acrostrio.com",
+        "images": {
+          "main": "acros-trio/acros-trio-b&w.jpg",
+          "secondary": "acros-trio/acros-trio-red.jpg"
+        },
+        "social": "",
+        "url": "acros-trio"
+      },
+      {
+        "id": 1,
+        "title": "Crossmopolitans",
+        "description": "Das Ensemble „Crossmopolitans“ wurde aus der Idee gegründet, die Grenzen zwischen klassischer und popularer Musik...",
+        "text": [
+          {
+            "para": "Das Ensemble „Crossmopolitans“ wurde aus der Idee gegründet, die Grenzen zwischen klassischer und popularer Musik zu lockern und beide Genres miteinander zu verbinden." 
+          },
+          {
+            "para": "Die drei aus Südamerika stammenden, erstklassig in Wien ausgebildeten und bereits erfolgreichen Musiker haben sich zusammengeschlossen, um mit Freude neue Arrangements zu kreieren. So interpretieren sie zum Beispiel große Meisterwerke der klassischen Musik neu, indem Sie Rhythmen Ihrer Heimatländer, folkloristische Musik und moderne Musik einfliessen lassen und neue, aufregende Stücke formen. Mit diesem Vorhaben schaffen Sie es, das Genre „Crossover“ auf eine vollkommen neue Ebene zu stellen."
+          }
+        ],
+        "linkText": "Mehr über Crossmopolitans",
+        "website": "",
+        "images": {
+          "main": "crossmopolitans/crosmopolitans.jpg",
+          "secondary": "crossmopolitans/crosmopolitans-music.jpg"
+        },
+        "social": "",
+        "url": "crossmopolitans"
+      },
+      {
+        "id": 2,
+        "title": "Garufa!",
+        "description": "Das Ensemble „Garufa!“, bei welche Alejandro Loguercio seit 2010 eines der vier Mitglieder ist, kombiniert Tango mit Comedy und Theater.",
+        "text": [
+          {
+            "para": "Das Ensemble „Garufa!“, bei welche Alejandro Loguercio seit 2010 eines der vier Mitglieder ist, kombiniert Tango mit Comedy und Theater." 
+          },
+          {
+            "para": "Das Ensemble schreibt und konzipiert seine Programme eigenständig und so hat die originelle und auch absolut einzigartige Art in Verbindung mit dem Charisma der jungen Musiker, „Garufa!“ bereits in viele der größten Konzertsäle in Europa und auch Südamerika gebracht."
+          },
+          {
+            "para": "Für mehr Informationen besuchen Sie die Website:"
+          }
+        ],
+        "linkText": "Mehr über Garufa!",
+        "website": "www.garufa.at",
+        "images": {
+          "main": "garufa/garufa.jpg",
+          "secondary": "garufa/garufa-members-concert.jpg"
+        },
+        "social": "",
+        "url": "garufa"
+      },
+      {
+        "id": 3,
+        "title": "Max Steiner",
+        "description": "Seit der Gründung im Jahr 2013 ist Alejandro Loguercio 1. Konzertmeister des Max-Steiner-Orchesters...",
+        "text": [
+          {
+            "para": "Seit der Gründung im Jahr 2013 ist Alejandro Loguercio 1. Konzertmeister des Max-Steiner-Orchesters. Das junge und dynamische Orchester hat sich darauf spezialisiert, die Filmmusik- oder auch Video-Game-Musik nicht nur aufzunehmen, sondern auch in großen Konzerten aufzuführen." 
+          },
+          {
+            "para": "Für mehr Informationen besuchen Sie die Website:"
+          }
+        ],
+        "linkText": "Mehr über Max Steiner Orchestra!",
+        "website": "www.maxsteinerorchestra.com",
+        "images": {
+          "main": "max-steiner/alejandro_loguercio_max_steiner_tuning.jpeg",
+          "secondary": "max-steiner/alejandro_loguercio_max_steiner_rehearsing.jpeg"
+        },
+        "social": "",
+        "url": "max-steiner"
+      },
+      {
+        "id": 4,
+        "title": "Zusammenarbeit Mit Anderen Musikern",
+        "description": "Alejandro Loguercio spielt auch regelmässig in Projekten von grossen und berühmten Musikerpersönlichkeiten mit...",
+        "text": [
+          {
+            "para": "Alejandro Loguercio spielt auch regelmässig in Projekten von grossen und berühmten Musikerpersönlichkeiten mit." 
+          },
+          {
+            "para": "So spielt er zum Beispiel als Sologeiger im Ensemble von Ksenija Sidorova, mit welcher er 2016 die CD, „Carmen“ für die Deutsche Grammophon aufgenommen hat."
+          },
+          {
+            "para": "Ausserdem spielt er regelmässig als Sologeiger in der Rojo-Tango-Show des Star-Bariton Erwin Schrott."
+          },
+          {
+            "para": "Für mehr Informationen besuchen Sie die Websites:"
+          }
+        ],
+        "linkText": "Mehr über zusammenarbeit mit anderen musikern",
+        "website": "www.ksenijasidorova.com",
+        "website2": "www.erwinschrott.com",
+        "images": {
+          "main": "collaboration/collaboration-artists-concert.jpg",
+          "secondary": "collaboration/collaboration-artists.jpg"
+        },
+        "social": "",
+        "url": "zusammenarbeit"
+      }
+    ]
+  } 
+}
