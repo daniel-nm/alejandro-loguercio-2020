@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Switch, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 // Context
 import LanguageContext from "./context/LanguageContext";
@@ -13,12 +14,13 @@ import Footer from "./components/Footer";
 
 // Pages
 import Home from "./pages/Home";
-import { AnimatePresence } from "framer-motion";
+import Biography from "./pages/Biography";
 
 // TODO: needs adding additional routes
 // Routes
 const routes = [
-  {path: "/", name: "Home", Component: Home}
+  {path: "/", name: "Home", Component: Home},
+  {path: "/biography", name: "Biography", Component: Biography},
 ]
 
 function App() {
