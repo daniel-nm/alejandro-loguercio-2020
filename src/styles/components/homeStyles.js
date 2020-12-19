@@ -453,3 +453,73 @@ export const ClassText = styled.p`
   color: var(--dark-gray);
   margin-bottom: 1.5rem;
 `
+
+// **********
+// HOME CONTACT
+// **********
+
+export const ContactDiv = styled.div`
+  background-color: var(--white);
+  border: 1px solid #CCCED6;
+  box-shadow: 10px -10px 10px 0px rgba(0,0,0,0.16);
+  position: relative;
+  top: 48px;
+  padding: 2rem 3rem;
+  z-index: 3;
+  
+  @media screen and (min-width: 48em) {
+    margin: 10rem auto 0;
+    padding: 3rem 2rem;
+    width: 56.667%;
+  }
+
+  @media screen and (min-width: 64em) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6.75rem 4rem;
+    margin-top: 15rem;
+  }
+
+  p {
+    font-family: var(--serif);
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 5rem;
+
+    @media screen and (min-width: 64em) {
+      font-size: 1.5rem;
+      margin-bottom: 0;
+      text-align: left;
+      width: 50%;
+    }
+  }
+
+  div {
+    text-align: center;
+  }
+
+  a {
+    background: var(--black);
+    border: none;
+    color: var(--white);
+    display: inline-block;
+    font-family: var(--sans-serif);
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 1.5rem 3.75rem;
+    text-decoration: none;
+    transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+
+    &:hover,
+    &:focus {
+      background-color: var(--primary);
+      box-shadow: 10px -10px 10px 0px rgba(0,0,0,0.16);
+      letter-spacing: 0.1rem;
+    }
+
+    &:focus {
+      border: 1px solid var(--primary);
+    }
+  }
+`
