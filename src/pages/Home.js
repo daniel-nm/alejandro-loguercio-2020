@@ -13,6 +13,7 @@ import HomePress from "../components/home/HomePress";
 import HomeProjects from "../components/home/HomeProjects";
 import HomeClasses from "../components/home/HomeClasses";
 import HomeContact from "../components/home/HomeContact";
+import PanelTransition from "../components/panel/PanelTransition";
 
 const Home = () => {
 
@@ -25,6 +26,7 @@ const Home = () => {
       <HomeProjects content={Content} language={language} />
       <HomeClasses content={Content} language={language} />
       <HomeContact content={Content} language={language} />
+      <PanelTransition />
     </motion.div>
   )
 }
