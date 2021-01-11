@@ -15,12 +15,14 @@ import Footer from "./components/Footer";
 // Pages
 import Home from "./pages/Home";
 import Biography from "./pages/Biography";
+import Projects from "./pages/Projects";
 
 // TODO: needs adding additional routes
 // Routes
 const routes = [
   {path: "/", name: "Home", Component: Home},
   {path: "/biography", name: "Biography", Component: Biography},
+  {path: "/projects", name: "Projects", Component: Projects},
 ]
 
 function App() {

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // Images
 import mobileImg from "../../assets/img/alejandro-loguercio-white-shirt.jpeg";

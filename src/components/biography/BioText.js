@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext } from 'react';
 
 // Content
 import Content from "../../content/biography.json";
