@@ -17,6 +17,10 @@ export const SectionFlex = styled.section`
       position: absolute;
       left: 5.4660%;
       width: 30%;
+
+      @media screen and (min-width: 137em) {
+        left: 10%;
+      }
     }
   }
 `
@@ -97,6 +101,7 @@ export const Press = styled.div`
   /* Desktop */
   @media screen and (min-width: 48em) {
     margin: 15rem auto 0;
+    max-width: 980px;
     width: 54.271%,
   }
 `
@@ -106,6 +111,10 @@ export const PressText = styled.p`
   color: var(--dark-gray);
   font-size: 1.25rem;
   margin-bottom: 1rem;
+
+  @media screen and (min-width: 137em) {
+    font-size: 1.5rem;
+  }
 `
 
 // Press author
@@ -116,7 +125,11 @@ export const PressAuthor = styled.p`
   display: flex;
   align-items: center;
 
-  &:.before {
+  @media screen and (min-width: 137em) {
+    font-size: 1rem;
+  }
+
+  &::before {
     content: "";
     background: var(--light-gray);
     display: inline-block;
@@ -191,6 +204,10 @@ export const Project = styled(motion.div)`
   @media screen and (min-width: 48em) {
     background-position: top;
     height: 500px;
+  }
+
+  @media screen and (min-width: 137em) {
+    height: 600px;
   }
 
   div {

@@ -7,6 +7,7 @@ export const Nav = styled(motion.nav)`
   justify-content: space-between;
   align-items: center;
   width: 89.067%;
+  max-width: 1980px;
   margin: 2rem auto;
 
   /* Logo */
@@ -80,6 +81,7 @@ export const Nav = styled(motion.nav)`
       margin: 0 auto;
       position: relative;
       width: 89.067%;
+      max-width: 1980px;
     }
 `;
 
@@ -97,6 +99,7 @@ export const MenuContent = styled(motion.div)`
 
 // Nav list
 export const NavList = styled.div`
+  max-width: 1980px;
   width: 89.067%;
   /* Fallback */
   height: 100vh; 

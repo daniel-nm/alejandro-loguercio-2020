@@ -74,6 +74,7 @@ export const GlobalStyle = createGlobalStyle`
 // Container for sections
 export const Container = styled(motion.section)`
   margin: 0 auto;
+  max-width: 1980px;
   width: 89.067%;
 
   /* Bigger screens */
