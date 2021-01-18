@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { motion } from "framer-motion";
 
 // Context
@@ -18,13 +18,24 @@ import PanelTransition from "../components/panel/PanelTransition";
 const Home = () => {
 
   const [language] = useContext(LanguageContext);
+  const [isGerman, setIsGerman] = useState(false);
+
+  // Show the class section only for German language
+  useEffect(() => {
+    if(language === "de") {
+      setIsGerman(true);
+    } 
+    else {
+      setIsGerman(false);
+    }
+  }, [language]);
 
   return (
     <motion.div exit="exit">
       <HomeBanner content={Content} language={language} />
       <HomePress content={Content} language={language} />
       <HomeProjects content={Content} language={language} />
-      <HomeClasses content={Content} language={language} />
+      {isGerman && <HomeClasses content={Content} language={language} />}
       <HomeContact content={Content} language={language} />
       <PanelTransition />
     </motion.div>
