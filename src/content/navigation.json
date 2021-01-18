@@ -13,11 +13,6 @@
       },
       {
         "id": 2,
-        "link": "Teaching",
-        "to": "/teaching"
-      },
-      {
-        "id": 3,
         "link": "Contact",
         "to": "/contact"
       }
@@ -28,22 +23,22 @@
       {
         "id": 0,
         "link": "Biografie",
-        "to": "/biografie"
+        "to": "/biography"
       },
       {
         "id": 1,
         "link": "Projekte",
-        "to": "/projekte"
+        "to": "/projects"
       },
       {
         "id": 2,
-        "link": "Unterricht",
-        "to": "/unterricht"
+        "link": "Kontakt",
+        "to": "/contact"
       },
       {
         "id": 3,
-        "link": "Kontakt",
-        "to": "/kontakt"
+        "link": "Unterricht",
+        "to": "/unterricht"
       }
     ]
   }
