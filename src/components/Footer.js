@@ -26,9 +26,9 @@ const Footer = () => {
           <div className="flex--left">
             <Link className="logo" to="/">Alejandro Loguercio</Link>
             <SocialFooter>
-              <a href="/"><Facebook /></a>
-              <a href="/"><Instagram /></a>
-              <a href="/"><Youtube /></a>
+              <a href="https://www.facebook.com/alejandrologuercio.official/"><Facebook /></a>
+              <a href="https://www.instagram.com/alejandrologuercio/"><Instagram /></a>
+              <a href="https://www.youtube.com/channel/UCrFn_dbPa5x6_mX6NwBmw1A"><Youtube /></a>
             </SocialFooter>
           </div>
           <div className="flex--right">
