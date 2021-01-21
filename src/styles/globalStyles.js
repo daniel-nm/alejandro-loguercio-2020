@@ -2,6 +2,13 @@ import styled, { createGlobalStyle } from "styled-components";
 import { motion } from "framer-motion";
 
 export const GlobalStyle = createGlobalStyle`
+
+  :root {
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none !important;  /* Firefox */
+  }
+
   html {
     /* Colour variables */
     --black: #36363B;
