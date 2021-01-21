@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import mobileImg from "../../assets/img/alejandro-loguercio-smiling-camera-m.jpg";
-import desktopImg from '../../assets/img/alejandro-loguercio-smiling-camera.jpeg';
+import mobileImg from "../../assets/img/DSC_4473.JPG";
+import desktopImg from '../../assets/img/DSC_4473.JPG';
 
 // Styles
 import { Container } from "../../styles/globalStyles";
@@ -48,7 +48,7 @@ const HomeBanner = ({ content, language }) => {
             variants={slideUp} 
             transition={transition}
           >
-            <Link to="/biography">{data.link}</Link>
+            <Link to="/unterricht">{data.link}</Link>
           </motion.p>
         </Div>
       </Container>
