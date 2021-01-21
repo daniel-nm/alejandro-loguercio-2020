@@ -36,6 +36,10 @@ export const Overflow = styled(motion.div)`
       width: 50%;
     }
   }
+
+  @media screen and (min-width: 137em) {
+    height: 60vh;
+  }
 `
 
 // Single Project
@@ -58,6 +62,10 @@ export const Project = styled(motion.div)`
 
   @media screen and (min-width: 64em) {
     height: 70vh;
+  }
+
+  @media screen and (min-width: 137em) {
+    height: 60vh;
   }
 
   div {
