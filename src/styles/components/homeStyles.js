@@ -19,7 +19,7 @@ export const SectionFlex = styled.section`
       width: 30%;
 
       @media screen and (min-width: 137em) {
-        left: 10%;
+        left: 11%;
       }
     }
   }
@@ -277,6 +277,10 @@ export const MenuContent = styled(motion.div)`
     left: 5.4660%;
     z-index: -1;
 
+    @media screen and (min-width: 120em) {
+      left: 11%;
+    }
+
     li {
       font-weight: 900;
       list-style: none;
@@ -287,6 +291,10 @@ export const MenuContent = styled(motion.div)`
       /* Mobile when landscape position */
       @media screen and (max-height: 31.25em) {
         margin-bottom: 0.5rem;
+      }
+
+      @media screen and (min-width: 120em) {
+        margin-bottom: 3rem;
       }
 
       .nav__link {
@@ -363,6 +371,7 @@ export const MenuHeader = styled(motion.div)`
   align-items: center;
   margin: 2rem auto 4rem;
   width: 89.067%;
+  max-width: 1980px;
 
   .logo {
     color: var(--black);
