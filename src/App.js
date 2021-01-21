@@ -16,6 +16,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Biography from "./pages/Biography";
 import Projects from "./pages/Projects";
+import Project from "./pages/Project";
 
 // TODO: needs adding additional routes
 // Routes
@@ -23,12 +24,13 @@ const routes = [
   {path: "/", name: "Home", Component: Home},
   {path: "/biography", name: "Biography", Component: Biography},
   {path: "/projects", name: "Projects", Component: Projects},
+  {path: "/project/:id", name: "Project", Component: Project},
 ]
 
 function App() {
 
   // User app language
-  const userLang = localStorage.getItem("AL - Lang") ? localStorage.getItem("AL - Lang") : "en";
+  const userLang = localStorage.getItem("AL - Lang") ? localStorage.getItem("AL - Lang") : "de";
 
   // App language
   const langHook = useState(userLang);
