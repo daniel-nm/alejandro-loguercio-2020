@@ -5,6 +5,7 @@ export const Page = styled.section`
   @media screen and (min-width: 64em) {
     display: flex;
     width: 85.4167%;
+    max-width: 1980px;
     margin: 0 auto 5rem;
   } 
 `
@@ -24,9 +25,14 @@ export const ImgDiv = styled(motion.div)`
 
   @media screen and (min-width: 64em) {
     background-image: ${props => `url(${props.desktopImg})`};
+    background-position: center;
     flex: 1;
     height: 100vh;
     width: 100%;
+  }
+
+  @media screen and (min-width: 137em) {
+    height: 80vh;
   }
 `
 
