@@ -7,9 +7,7 @@ function ScrollToTop(props) {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    console.log("timeout 1");
     setTimeout(() => {
-      console.log("timeout 2");
       window.scrollTo(0, 0);
     }, 1000);
   }, [pathname]);

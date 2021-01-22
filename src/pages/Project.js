@@ -49,7 +49,7 @@ const Project = (props) => {
         setPreviousProject(item);
       }
     });
-  }, []);
+  }, [language, project.other.previous, project.other.next]);
 
   return (
     <Page 
