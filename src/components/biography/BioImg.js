@@ -1,8 +1,8 @@
 import React from 'react';
 
 // Images
-import mobileImg from "../../assets/img/DSC_4513.JPG";
-import desktopImg from "../../assets/img/DSC_4586.JPG";
+import mobileImg from "../../assets/img/alejandro-loguercio-looking-down.jpg";
+import desktopImg from "../../assets/img/alejandro-loguercio-holding-violin.jpg";
 
 // Styles
 import { ImgDiv } from "../../styles/components/biographyStyles";
