@@ -29,13 +29,13 @@ const ProjectInfo = ({project, previousProject, nextProject, transition}) => {
           pathname: `${project.other.previous}`,
           state: {project: previousProject}
         }}>
-          {project.other.previous && <p>Previous: {project.other.previous}</p>}
+          {project.other.previous && <span>Previous: {project.other.previous}</span>}
         </Link>
         <Link to={{
           pathname: `${project.other.next}`,
           state: {project: nextProject}
         }}>
-          {project.other.next && <p>Next: {project.other.next}</p>}
+          {project.other.next && <span>Next: {project.other.next}</span>}
         </Link>
       </OtherProjects>
     </ProjectDivInfo>

@@ -111,8 +111,14 @@ export const OtherProjects = styled.div`
   }
 
   a {
-    display: inline-block;
+    display: block;
     text-transform: capitalize;
+    width: 65%;
+
+    @media screen and (min-width: 48em) {
+      display: inline-block;
+      width: unset;
+    }
 
     &:first-of-type {
       margin-bottom: 1rem;
