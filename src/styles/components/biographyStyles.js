@@ -78,7 +78,8 @@ export const TextDiv = styled(motion.div)`
   }
 
   .training,
-  .vienna {
+  .vienna,
+  .pedagogue {
     margin-bottom: 3rem;
     p {
       margin-bottom: 1rem;
