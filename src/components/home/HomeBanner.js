@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import mobileImg from "../../assets/img/DSC_4473.JPG";
-import desktopImg from '../../assets/img/DSC_4473.JPG';
+import mobileImg from "../../assets/img/alejandro-loguercio.jpg";
+import desktopImg from '../../assets/img/alejandro-loguercio.jpg';
 
 // Styles
 import { Container } from "../../styles/globalStyles";
