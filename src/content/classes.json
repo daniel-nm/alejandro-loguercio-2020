@@ -1,0 +1,272 @@
+{
+  "en": {
+    "title": "Preisliste",
+    "text": [
+      {
+        "id": 0,
+        "para": "Geigen Einzelunterricht"
+      },
+      {
+        "id": 1,
+        "para": "Preise für 18 Einheiten pro Semester (September-Januar, Februar-Juni)"
+      },
+      {
+        "id": 2,
+        "para": "Schnupperstunde a 30 Minuten: 25 €"
+      },
+      {
+        "id": 3,
+        "para": "Alle Preise sind Bruttopreise. Änderungen vorbehalten."
+      }
+    ],
+    "footnote": [
+      {
+        "id": 0,
+        "para": "Es gilt die Wiener Schul- und Ferienregelung. Ausnahmen nach Absprache. Nach Erhalt der Semestergebühr kann der Unterricht beginnen. Das Semester beinhaltet 18 Unterrichtseinheiten. Bei Beginn des Unterrichts ist ein Instrument zu besitzen. Gerne helfe ich bei Miete oder Kauf eines Instrumentes."
+      },
+      {
+        "id": 1,
+        "para": "Kosten für versäumte Unterrichtsstunden aufgrund von Krankheit oder Urlaub können nicht rückerstattet werden und nur nach Möglichkeit nachgeholt werden. Prinzipiell sollte ein absehbares Nichterscheinen zum Unterricht 24 Stunden vor Beginn mitgeteilt werden."
+      }
+    ],
+    "prices": [
+      {
+        "id": 0,
+        "time": "monat",
+        "minutes": 30,
+        "price": 105 
+      },
+      {
+        "id": 1,
+        "time": "monat",
+        "minutes": 50,
+        "price": 160,
+        "background": "dark"  
+      },
+      {
+        "id": 2,
+        "time": "semester",
+        "minutes": 30,
+        "price": 500 
+      },
+      {
+        "id": 3,
+        "time": "semester",
+        "minutes": 50,
+        "price": 750,
+        "background": "dark"  
+      }
+    ],
+    "kinder": {
+      "title": "Kinder",
+      "text": [
+        {
+          "para": "Einem Kind das erste Mal Musik nahezulegen und es für Geige zu begeistern, ist nicht nur ein großes Privileg für mich, sondern auch eine sehr große Verantwortung."
+        },
+        {
+          "para": "Es ist nicht nur wichtig, Ihnen das Instrument und die Umgangsweise damit zu zeigen. Vielmehr ist es eigentlich noch wichtiger, auf Ihre individuelle Art einzugehen, zu bemerken, wie sie reagieren und dabei immer mit Humor Ihr Interesse zu wecken. Letztendlich lernen wir am besten, was uns interessiert und was uns Freude macht."
+        },
+        {
+          "para": "Als Vater von zwei kleinen Kinder und als langjähriger Geigenlehrer durfte ich viel darüber lernen, wie Kinder auf verschiedene Weise mit Inhalten umgehen. So schätze und verstehe ich die Verantwortung sehr, Ihnen so etwas wundervolles wie Musik nahelegen zu können."
+        },
+        {
+          "para": "Auch meine Arbeit als Leiter des Einsteiger-Orchester-Programmes für Kinder in „SUPERAR“ in Wien und meine eigene sehr ähnliche Ausbildung in Venezuela im sogenannten „El sistema“ hat mich viel über die verschiedensten Unterrichtsansätze gelehrt, wie zum Beispiel positiver Pädagogik von den ersten Schritten an, um Ergebnisse von höchster Qualität zu erzielen und ein angenehmes und positives Klima in der Klasse aufrechtzuerhalten."
+        }
+      ]
+    },
+    "erwachsene": {
+      "title": "Teenager und Erwachsene",
+      "text": [
+        {
+          "para": "Ein Instrument wie Geige zu erlernen oder zu spielen und Musik zu machen, ist nicht nur privilegierten Kindern oder Menschen vorbehalten, die sich für klassische Musik interessieren."
+        },
+        {
+          "para": "Tatsächlich bin ich selbst ein Beispiel dafür, dass man mit der Violine die Grenzen der klassischen Musik in jeder Hinsicht überwinden kann. Ich habe erst im Alter von 14 Jahren angefangen, Geige zu spielen, was für viele fast undenkbar ist. Außerdem komme ich nicht aus einer Musikerfamilie und meine Anfänge waren nicht im Privatunterricht, sondern in einem sozialen Programm namens 'El sistema' in meinem Herkunftsland Venezuela. Jetzt mit mehr als 25 Jahren künstlerischer Erfahrung, nachdem ich für Konzerte alle 5 Kontinente bereist habe, an einer der renommiertesten Musikuniversitäten der Welt studiert habe und meinen Beruf in der „Stadt der Musik“ ausüben darf, kann ich Ihnen versichern, dass Sie zum Geigenspiel nur eine Zutat benötigen: Sie wollen es tun! Klassik, Popular-, Jazz- und sogar Popmusik sind für mich alles Stile, bei denen ich mich zu Hause fühle und mit denen ich täglich zu tun habe und lebe."
+        },
+        {
+          "para": "Die Erfahrung, Schüler jeden Alters auf dieser schönen Reise des musikalischen Lernens zu begleiten, ist etwas, was ich nicht nur sehr schätze und geniesse, sondern das meiner musikalischen Karriere den letzten Schliff gibt."
+        }
+      ]
+    },
+    "kontakt": [
+      {
+        "id": 0,
+        "text": "Noch mehr Fragen? Ich freu mich über Ihre Nachricht!"
+      },
+      {
+        "id": 1,
+        "text": "Kontaktiere mich"
+      }
+    ],
+    "bio" : {
+      "title": "Alejandro Loguercio",
+      "subtitle1": "Musikalische erstausbildung",
+      "subtitle2": "Wien",
+      "subtitle3": "Pädagoge",
+      "highlight": "Für seine ausserordentliche Musikalität und Virtuosität gefeiert, führt der venezolanische Geiger Alejandro Loguercio eine aufstrebende Karriere als Solist, Kammermusiker und Pädagoge.",
+      "intro": "Sein Erfolg, in so frühen Jahren den ersten Preis beim Internationalen Violinwettbewerb Concurso Biblioteca Luis Angel Arango in Bogota zu gewinnen, war der Beginn seiner Karriere in ganz Lateinamerika. Seitdem hatte er zahlreiche Auftritte auf allen Kontinenten, unter anderem bei internationalen Musikfestivals wie den Wiener Festwochen (Österreich), dem Rheingau Musikfestival (Deutschland), dem Ravinia Festival (USA) und dem Riga-Jurmala Music Festival (Lettland).",
+      "training": [
+        {
+          "text": "Die musikalische Karriere des Geigers Alejandro Loguercio begann im von José Antonio Abreu gegründeten venezolanischen Jugendorchester-Projekt El Sistema. Er studierte zunächst am Conservatorio de Música in Valencia/ Venezuela und hatte bereits im Alter von 16 Jahren ein Engagement als erster Geiger im Orquesta Sinfónica de Carabobo. Anschließend übersiedelte er nach Kolumbien, wo er zwei Jahre im Kammerorchester Filarmónica del Caribe arbeitete. Nach mehreren Auszeichnungen und dem ersten Preis im internationalen Violinwettbewerb Concurso Biblioteca Luis Angel Arango in Bogotá folgten Konzerte sowohl als Solist, als auch als Kammermusiker."
+        }
+      ],
+      "vienna": [
+        {
+          "text": "Im Jahr 2003 zog es Alejandro Loguercio nach Wien und er studierte Violine bei Prof. Klaus Maetzl (ehem. Alban Berg Quartett) und Kammermusik bei Prof. Johannes Meissl an der Universität für Musik und darstellende Kunst Wien. Große Einflüsse in seiner künstlerischen Entwicklung bekam Alejandro Loguercio auch durch die Zusammenarbeit mit musikalischen Persönlichkeiten wie zum Beispiel Hatto Beyerle, Alberto Lysy, Gerhard Schulz, Shmuel Ashkenazy, Roberto Valdes, José Francisco del Castillo oder auch Ferenc Rados."
+        },
+        {
+          "text": "Neben seiner Tätigkeit als Solist sind seine kammermusikalischen Schwerpunkte das Latin-Classical Crossover-Trio „Crossmopolitans“, das „Acros Trio“, mit welchem er 2009 seine erste CD veröffentlichte und die Tango-Comedy Gruppe „Garufa!“. Zusätzlich spielt er häufig in Projekten von berühmten Musikerpersönlichkeiten mit. So nahm er 2016 mit der Akkordeonistin Ksenija Sidorova Ihre „Carmen“-CD für die Deutsche Grammophon auf und ist seither Sologeiger Ihres Ensembles. Ausserdem konzertiert er regelmässig als Geiger des Rojotango Ensemble mit dem erfolgreichen Star-Bariton Erwin Schrott."
+        },
+        {
+          "text": "Seit 2013 ist Alejandro Loguercio Konzertmeister des Max Steiner Orchester."
+        }
+      ],
+      "pedagogue": [
+        {
+          "text": "Unterrichten und das Weitergeben von musikalischen Erfahrungen und Eindrücken ist Alejandro Loguercio schon seit vielen Jahren ein großes Anliegen."
+        },
+        {
+          "text": "So hat er bei mehreren Meisterkursen für Kammermusik in Österreich unterrichtet und ist neben seiner privaten Lehrertätigkeit seit 2019 als Pädagoge im Musikvermittlungsprojekt „Superar“ tätig. Seit 2020 ist er dort der Leiter des Einsteiger-Orchesters und betreut zusätzlich die Geigengruppen. In diesem Zusammenhang nimmt er regelmässig an verschiedensten Fortbildungen im Bereich Pädagogik teil."
+        },
+        {
+          "text": "Neben Violinunterricht für Kinder und Erwachsenen gibt er auch regelmässig Kammemusikunterricht für Laien- und Profimusiker."
+        }
+      ]
+    }
+  },
+  "de": {
+    "title": "Preisliste",
+    "text": [
+      {
+        "id": 0,
+        "para": "Geigen Einzelunterricht"
+      },
+      {
+        "id": 1,
+        "para": "Preise für 18 Einheiten pro Semester (September-Januar, Februar-Juni)"
+      },
+      {
+        "id": 2,
+        "para": "Schnupperstunde a 30 Minuten: 25 €"
+      },
+      {
+        "id": 3,
+        "para": "Alle Preise sind Bruttopreise. Änderungen vorbehalten."
+      }
+    ],
+    "footnote": [
+      {
+        "id": 0,
+        "para": "Es gilt die Wiener Schul- und Ferienregelung. Ausnahmen nach Absprache. Nach Erhalt der Semestergebühr kann der Unterricht beginnen. Das Semester beinhaltet 18 Unterrichtseinheiten. Bei Beginn des Unterrichts ist ein Instrument zu besitzen. Gerne helfe ich bei Miete oder Kauf eines Instrumentes."
+      },
+      {
+        "id": 1,
+        "para": "Kosten für versäumte Unterrichtsstunden aufgrund von Krankheit oder Urlaub können nicht rückerstattet werden und nur nach Möglichkeit nachgeholt werden. Prinzipiell sollte ein absehbares Nichterscheinen zum Unterricht 24 Stunden vor Beginn mitgeteilt werden."
+      }
+    ],
+    "prices": [
+      {
+        "id": 0,
+        "time": "Monat",
+        "minutes": 30,
+        "price": 105 
+      },
+      {
+        "id": 1,
+        "time": "Monat",
+        "minutes": 50,
+        "price": 160,
+        "background": "dark"  
+      },
+      {
+        "id": 2,
+        "time": "Semester",
+        "minutes": 30,
+        "price": 500 
+      },
+      {
+        "id": 3,
+        "time": "Semester",
+        "minutes": 50,
+        "price": 750,
+        "background": "dark"  
+      }
+    ],
+    "kinder": {
+      "title": "Kinder",
+      "text": [
+        {
+          "para": "Einem Kind das erste Mal Musik nahezulegen und es für Geige zu begeistern, ist nicht nur ein großes Privileg für mich, sondern auch eine sehr große Verantwortung."
+        },
+        {
+          "para": "Es ist nicht nur wichtig, Ihnen das Instrument und die Umgangsweise damit zu zeigen. Vielmehr ist es eigentlich noch wichtiger, auf Ihre individuelle Art einzugehen, zu bemerken, wie sie reagieren und dabei immer mit Humor Ihr Interesse zu wecken. Letztendlich lernen wir am besten, was uns interessiert und was uns Freude macht."
+        },
+        {
+          "para": "Als Vater von zwei kleinen Kinder und als langjähriger Geigenlehrer durfte ich viel darüber lernen, wie Kinder auf verschiedene Weise mit Inhalten umgehen. So schätze und verstehe ich die Verantwortung sehr, Ihnen so etwas wundervolles wie Musik nahelegen zu können."
+        },
+        {
+          "para": "Auch meine Arbeit als Leiter des Einsteiger-Orchester-Programmes für Kinder in „SUPERAR“ in Wien und meine eigene sehr ähnliche Ausbildung in Venezuela im sogenannten „El sistema“ hat mich viel über die verschiedensten Unterrichtsansätze gelehrt, wie zum Beispiel positiver Pädagogik von den ersten Schritten an, um Ergebnisse von höchster Qualität zu erzielen und ein angenehmes und positives Klima in der Klasse aufrechtzuerhalten."
+        }
+      ]
+    },
+    "erwachsene": {
+      "title": "Teenager und Erwachsene",
+      "text": [
+        {
+          "para": "Ein Instrument wie Geige zu erlernen oder zu spielen und Musik zu machen, ist nicht nur privilegierten Kindern oder Menschen vorbehalten, die sich für klassische Musik interessieren."
+        },
+        {
+          "para": "Tatsächlich bin ich selbst ein Beispiel dafür, dass man mit der Violine die Grenzen der klassischen Musik in jeder Hinsicht überwinden kann. Ich habe erst im Alter von 14 Jahren angefangen, Geige zu spielen, was für viele fast undenkbar ist. Außerdem komme ich nicht aus einer Musikerfamilie und meine Anfänge waren nicht im Privatunterricht, sondern in einem sozialen Programm namens 'El sistema' in meinem Herkunftsland Venezuela. Jetzt mit mehr als 25 Jahren künstlerischer Erfahrung, nachdem ich für Konzerte alle 5 Kontinente bereist habe, an einer der renommiertesten Musikuniversitäten der Welt studiert habe und meinen Beruf in der „Stadt der Musik“ ausüben darf, kann ich Ihnen versichern, dass Sie zum Geigenspiel nur eine Zutat benötigen: Sie wollen es tun! Klassik, Popular-, Jazz- und sogar Popmusik sind für mich alles Stile, bei denen ich mich zu Hause fühle und mit denen ich täglich zu tun habe und lebe."
+        },
+        {
+          "para": "Die Erfahrung, Schüler jeden Alters auf dieser schönen Reise des musikalischen Lernens zu begleiten, ist etwas, was ich nicht nur sehr schätze und geniesse, sondern das meiner musikalischen Karriere den letzten Schliff gibt."
+        }
+      ]
+    },
+    "kontakt": [
+      {
+        "id": 0,
+        "text": "Noch mehr Fragen? Ich freu mich über Ihre Nachricht!"
+      },
+      {
+        "id": 1,
+        "text": "Kontaktiere mich"
+      }
+    ],
+    "bio" : {
+      "title": "Alejandro Loguercio",
+      "subtitle1": "Musikalische erstausbildung",
+      "subtitle2": "Wien",
+      "subtitle3": "Pädagoge",
+      "highlight": "Für seine ausserordentliche Musikalität und Virtuosität gefeiert, führt der venezolanische Geiger Alejandro Loguercio eine aufstrebende Karriere als Solist, Kammermusiker und Pädagoge.",
+      "intro": "Sein Erfolg, in so frühen Jahren den ersten Preis beim Internationalen Violinwettbewerb Concurso Biblioteca Luis Angel Arango in Bogota zu gewinnen, war der Beginn seiner Karriere in ganz Lateinamerika. Seitdem hatte er zahlreiche Auftritte auf allen Kontinenten, unter anderem bei internationalen Musikfestivals wie den Wiener Festwochen (Österreich), dem Rheingau Musikfestival (Deutschland), dem Ravinia Festival (USA) und dem Riga-Jurmala Music Festival (Lettland).",
+      "training": [
+        {
+          "text": "Die musikalische Karriere des Geigers Alejandro Loguercio begann im von José Antonio Abreu gegründeten venezolanischen Jugendorchester-Projekt El Sistema. Er studierte zunächst am Conservatorio de Música in Valencia/ Venezuela und hatte bereits im Alter von 16 Jahren ein Engagement als erster Geiger im Orquesta Sinfónica de Carabobo. Anschließend übersiedelte er nach Kolumbien, wo er zwei Jahre im Kammerorchester Filarmónica del Caribe arbeitete. Nach mehreren Auszeichnungen und dem ersten Preis im internationalen Violinwettbewerb Concurso Biblioteca Luis Angel Arango in Bogotá folgten Konzerte sowohl als Solist, als auch als Kammermusiker."
+        }
+      ],
+      "vienna": [
+        {
+          "text": "Im Jahr 2003 zog es Alejandro Loguercio nach Wien und er studierte Violine bei Prof. Klaus Maetzl (ehem. Alban Berg Quartett) und Kammermusik bei Prof. Johannes Meissl an der Universität für Musik und darstellende Kunst Wien. Große Einflüsse in seiner künstlerischen Entwicklung bekam Alejandro Loguercio auch durch die Zusammenarbeit mit musikalischen Persönlichkeiten wie zum Beispiel Hatto Beyerle, Alberto Lysy, Gerhard Schulz, Shmuel Ashkenazy, Roberto Valdes, José Francisco del Castillo oder auch Ferenc Rados."
+        },
+        {
+          "text": "Neben seiner Tätigkeit als Solist sind seine kammermusikalischen Schwerpunkte das Latin-Classical Crossover-Trio „Crossmopolitans“, das „Acros Trio“, mit welchem er 2009 seine erste CD veröffentlichte und die Tango-Comedy Gruppe „Garufa!“. Zusätzlich spielt er häufig in Projekten von berühmten Musikerpersönlichkeiten mit. So nahm er 2016 mit der Akkordeonistin Ksenija Sidorova Ihre „Carmen“-CD für die Deutsche Grammophon auf und ist seither Sologeiger Ihres Ensembles. Ausserdem konzertiert er regelmässig als Geiger des Rojotango Ensemble mit dem erfolgreichen Star-Bariton Erwin Schrott."
+        },
+        {
+          "text": "Seit 2013 ist Alejandro Loguercio Konzertmeister des Max Steiner Orchester."
+        }
+      ],
+      "pedagogue": [
+        {
+          "text": "Unterrichten und das Weitergeben von musikalischen Erfahrungen und Eindrücken ist Alejandro Loguercio schon seit vielen Jahren ein großes Anliegen."
+        },
+        {
+          "text": "So hat er bei mehreren Meisterkursen für Kammermusik in Österreich unterrichtet und ist neben seiner privaten Lehrertätigkeit seit 2019 als Pädagoge im Musikvermittlungsprojekt „Superar“ tätig. Seit 2020 ist er dort der Leiter des Einsteiger-Orchesters und betreut zusätzlich die Geigengruppen. In diesem Zusammenhang nimmt er regelmässig an verschiedensten Fortbildungen im Bereich Pädagogik teil."
+        },
+        {
+          "text": "Neben Violinunterricht für Kinder und Erwachsenen gibt er auch regelmässig Kammemusikunterricht für Laien- und Profimusiker."
+        }
+      ]
+    }
+  }
+}
