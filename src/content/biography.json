@@ -23,6 +23,7 @@
     "title": "Biographie von Alejandro Loguercio",
     "subtitle1": "Musikalische erstausbildung",
     "subtitle2": "Wien",
+    "subtitle3": "Pädagoge",
     "highlight": "Für seine ausserordentliche Musikalität und Virtuosität gefeiert, führt der venezolanische Geiger Alejandro Loguercio eine aufstrebende Karriere als Solist, Kammermusiker und Orchestermusiker.",
     "intro": "Sein Erfolg, den ersten Preis beim Internationalen Violinwettbewerb Concurso Biblioteca Luis Angel Arango in Bogota zu gewinnen, war ein Katalysator für seine in ganz Lateinamerika aufblühende Karriere. Seitdem hat er zahlreiche Auftritte auf allen Kontinenten gegeben, unter anderem bei internationalen Musikfestivals wie den Wiener Festwochen (Österreich), dem Rheingau Musikfestival (Deutschland), dem MozartFest Würzburg (Deutschland) und dem Bratislava Chamber Guitar Festival (Slowakei).",
     "training": [
@@ -39,6 +40,17 @@
       },
       {
         "text": "Seit 2013 ist Alejandro Loguercio Konzertmeister des Max Steiner Orchester."
+      }
+    ],
+    "pedagogue": [
+      {
+        "text": "Unterrichten und das Weitergeben von musikalischen Erfahrungen und Eindrücken ist Alejandro Loguercio schon seit vielen Jahren ein großes Anliegen."
+      },
+      {
+        "text": "So hat er bei mehreren Meisterkursen für Kammermusik in Österreich unterrichtet und ist neben seiner privaten Lehrertätigkeit seit 2019 als Pädagoge im Musikvermittlungsprojekt „Superar“ tätig. Seit 2020 ist er dort der Leiter des Einsteiger-Orchesters und betreut zusätzlich die Geigengruppen. In diesem Zusammenhang nimmt er regelmässig an verschiedensten Fortbildungen im Bereich Pädagogik teil."
+      },
+      {
+        "text": "Neben Violinunterricht für Kinder und Erwachsenen gibt er auch regelmässig Kammemusikunterricht für Laien- und Profimusiker."
       }
     ]
   }
