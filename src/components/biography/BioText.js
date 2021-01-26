@@ -41,6 +41,14 @@ const BioText = ({ transition }) => {
             <p key={index}>{para.text}</p>
           ))}
         </div>
+        {Content[language].pedagogue && 
+        <div className="pedagogue">
+          <h2>{Content[language].subtitle3}</h2>
+          {Content[language].pedagogue.map((para, index) => (
+            <p key={index}>{para.text}</p>
+          ))}
+        </div>
+        }
         </Container>
       </TextDiv>
     </>
