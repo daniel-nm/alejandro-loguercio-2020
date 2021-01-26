@@ -128,14 +128,27 @@ const Navigation = ({toggleMenu, setToggleMenu}) => {
                 animate="animate"
                 exit="exit"
               >
-                <motion.button
-                  variants={footerSlideUp}
-                  transition={{...transition, duration: 1.5}}
-                  className="btn"
-                  value={language === "en" ? "de" : "en"} 
-                  onClick={changeLanguage}>
-                    {language === "en" ? "Deutsch" : "English"}
-                </motion.button>
+                {/* If location is unterricht, disable the language btn */}
+                {location.pathname === "/unterricht" && 
+                  <motion.button
+                    disabled
+                    variants={footerSlideUp}
+                    transition={{...transition, duration: 1.5}}
+                    className="btn"
+                    value={language === "en" ? "de" : "en"} 
+                  >{language === "en" ? "Deutsch" : "English"}
+                  </motion.button>
+                }
+                {/* If location is not unterricht, enable the language btn */}
+                {location.pathname !== "/unterricht" && 
+                  <motion.button
+                    variants={footerSlideUp}
+                    transition={{...transition, duration: 1.5}}
+                    className="btn"
+                    value={language === "en" ? "de" : "en"} 
+                    onClick={changeLanguage}>{language === "en" ? "Deutsch" : "English"}
+                  </motion.button>
+                }
                 {/* Social icons */}
                 <NavFooterSocial>
                   <motion.a variants={footerSlideUp}
