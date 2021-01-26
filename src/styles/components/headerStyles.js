@@ -233,6 +233,11 @@ export const NavFooter = styled(motion.div)`
       border: 1px solid var(--primary);
     }
 
+    &:disabled {
+      cursor: unset;
+      opacity: 0.5;
+    }
+
     /* Tablet */
     @media screen and (min-width: 48em) {
       font-size: 1rem;
