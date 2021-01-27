@@ -136,6 +136,8 @@
   },
   "de": {
     "title": "Preisliste",
+    "subtitle": "30 Minuten",
+    "subtitle2": "50 Minuten",
     "text": [
       {
         "id": 0,
@@ -147,11 +149,7 @@
       },
       {
         "id": 2,
-        "para": "Schnupperstunde a 30 Minuten: 25 €"
-      },
-      {
-        "id": 3,
-        "para": "Alle Preise sind Bruttopreise. Änderungen vorbehalten."
+        "para": "*Alle Preise sind Bruttopreise. Änderungen vorbehalten."
       }
     ],
     "footnote": [
@@ -173,16 +171,16 @@
       },
       {
         "id": 1,
-        "time": "Monat",
-        "minutes": 50,
-        "price": 160,
+        "time": "Semester",
+        "minutes": 30,
+        "price": 500,
         "background": "dark"  
       },
       {
         "id": 2,
-        "time": "Semester",
-        "minutes": 30,
-        "price": 500 
+        "time": "Monat",
+        "minutes": 50,
+        "price": 160 
       },
       {
         "id": 3,
@@ -223,16 +221,10 @@
         }
       ]
     },
-    "kontakt": [
-      {
-        "id": 0,
-        "text": "Noch mehr Fragen? Ich freu mich über Ihre Nachricht!"
-      },
-      {
-        "id": 1,
-        "text": "Kontaktiere mich"
-      }
-    ],
+    "kontakt": {
+      "text": "Noch mehr Fragen? Buche eine gratis Schnupperstunde",
+      "link": "Hier buchen"
+    },
     "bio" : {
       "title": "Alejandro Loguercio",
       "subtitle1": "Musikalische erstausbildung",
