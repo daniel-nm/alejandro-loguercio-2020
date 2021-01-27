@@ -38,34 +38,34 @@ export const Page = styled.section`
   }
 
   .bio {
+    .title {
+      font-size: 2rem;
+      margin-top: 5rem;
+
+      @media screen and (min-width: 64em) {
+        font-size: 2rem;
+        margin-top: 0;
+      }
+    }
+
     @media screen and (min-width: 64em) {
-      columns: 2;
+      columns: 3;
+      column-gap: 3rem;
       margin-bottom: 10rem;
       margin-top: 10rem;
     }
     @media screen and (min-width: 120em) {
-      columns: 2;
       max-width: 50vw;
     }
   }
 
   .bio__img {
-    margin: 5rem calc(-50vw + 50%) 0;
+    margin: 2rem calc(-50vw + 50%) 1rem;
     width: 100vw;
-
+    
     @media screen and (min-width: 64em) {
       margin: unset;
       max-width: 100%;
-      position: relative;
-      top: -3rem;
-      left: -2rem;
-    }
-
-    @media screen and (min-width: 120em) {
-      width: 120%; 
-      max-width: 120%;
-      top: -6rem;
-      left: -12rem;
     }
   }
 
@@ -73,6 +73,10 @@ export const Page = styled.section`
     font-size: 1.25rem;
     color: var(--dark-gray);
     margin-bottom: 2rem;
+
+    @media screen and (min-width: 64em) {
+      margin-bottom: 4rem;
+    }
   }
 `
 
@@ -125,7 +129,7 @@ export const TeachingDiv = styled(motion.div)`
   }
 `
 
-// Image for biography section
+// Image
 export const ImgDiv = styled(motion.div)`
   background-image: ${props => `url(${props.mobileImg})`};
   background-position: center;
@@ -146,6 +150,17 @@ export const ImgDiv = styled(motion.div)`
 export const PricesContainer = styled(motion.div)`
   max-width: 1440px;
   margin: 0 auto 10rem;
+
+  h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+
+    @media screen and (min-width: 64em) {
+      margin-top: 4rem;
+    }
+  }
 
   @media screen and (min-width: 44em) {
     .flex {
@@ -172,18 +187,24 @@ export const Card = styled.div`
   color: ${props => `${props.bg === 'dark' ? 'var(--white)' : 'var(--primary)'}`};
   box-shadow: 10px -10px 10px 0px rgba(0,0,0,0.16);
   padding: 2rem 2rem 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
+  
+
+  &:first-of-type,
+  &:nth-child(2) {
+    margin-top: 2rem;
+  }
 
   @media screen and (min-width: 48em) {
-    width: 35%;
+    width: 40%;
   }
 
   @media screen and (min-width: 64em) {
-    width: 15%;
+    width: 40%;
   }
 
   @media screen and (min-width: 120em) {
-    width: 20%;
+    width: 45%;
   }
 
   .card__title {
@@ -248,6 +269,12 @@ export const Card = styled.div`
 
 `
 
+export const VatDiv = styled.div`
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  
+`
+
 // Footnote in prices section
 export const Footnote = styled.p`
   font-size: 0.85rem;
@@ -304,6 +331,26 @@ export const ContactDiv = styled.div`
   }
 
   a {
-    font-size: 1rem;
+    background: var(--black);
+    border: none;
+    color: var(--white);
+    display: inline-block;
+    font-family: var(--sans-serif);
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 1.5rem 3.75rem;
+    text-decoration: none;
+    transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+
+    &:hover,
+    &:focus {
+      background-color: var(--primary);
+      box-shadow: 10px -10px 10px 0px rgba(0,0,0,0.16);
+      letter-spacing: 0.1rem;
+    }
+
+    &:focus {
+      border: 1px solid var(--primary);
+    }
   }
 `

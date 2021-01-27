@@ -9,7 +9,7 @@ import { transition, scrollView } from "../../animation/classes";
 
 // Styles
 import { Container } from "../../styles/globalStyles";
-import { PricesContainer, Card, Footnote } from "../../styles/components/classesStyles";
+import { PricesContainer, Card, VatDiv, Footnote } from "../../styles/components/classesStyles";
 
 const ClassPrices = ({content, language}) => {
 
@@ -42,13 +42,15 @@ const ClassPrices = ({content, language}) => {
       {data.text.slice(0,2).map((item) => (
         <p key={item.id}>{item.para}</p>
       ))}
+      {/* 30 minuten */}
+      <h3>{data.subtitle}</h3>
       <div className="flex">
-        {data.prices.map((item) => (
+        {data.prices.slice(0,2).map((item) => (
           <Card 
             key={item.id}
             bg={item.background}
           >
-            <h3 className="card__title">{item.minutes} minuten</h3>
+            <h4 className="card__title">{item.minutes} minuten</h4>
             <p className="card__body">
             <span className="price__sign">
               €
@@ -63,9 +65,34 @@ const ClassPrices = ({content, language}) => {
           </Card>
         ))}
       </div>
+      {/* 50 minuten */}
+      <h3>{data.subtitle2}</h3>
+      <div className="flex">
+      {data.prices.slice(2,4).map((item) => (
+          <Card 
+            key={item.id}
+            bg={item.background}
+          >
+            <h4 className="card__title">{item.minutes} minuten</h4>
+            <p className="card__body">
+            <span className="price__sign">
+              €
+            </span>
+            <span className="price">
+              {item.price}
+            </span>
+            <span className="price__time">
+              /{item.time}
+            </span>
+            </p>
+          </Card>
+        ))}
+      </div>
+      <VatDiv>
       {data.text.slice(2,4).map((item) => (
         <p key={item.id}>{item.para}</p>
       ))}
+      </VatDiv>
       {data.footnote.map((item) => (
         <Footnote key={item.id}>{item.para}</Footnote>
       ))}
