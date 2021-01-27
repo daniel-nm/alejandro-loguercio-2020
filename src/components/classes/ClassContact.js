@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
+import { Link } from "react-router-dom";
 
 // scroll Behaviour
 import { useInView } from "react-intersection-observer"
@@ -15,12 +16,6 @@ const ClassContact = ({ content, language}) => {
 
   // JSON data
   const data = content[language];
-
-  // Obfuscation of email and phone variables
-  const [phone1] = useState("+4369910");
-  const [phone2] = useState("511139");
-  const [emailUser] = useState("contact");
-  const [emailDomain] = useState("alejandrologuercio.com");
 
   const animation = useAnimation();
   const [contentRef, inView] = useInView({
@@ -44,21 +39,12 @@ const ClassContact = ({ content, language}) => {
       transition={transition}
     >
       <ContactDiv>
+        <p>{data.kontakt.text}</p>
         <div>
-          {data.kontakt.map((item) => (
-            <p>{item.text}</p>
-          ))}
-        </div>
-        <div>
-          <p>
-          <a class="link"
-          href={`mailto:${emailUser}@${emailDomain}?Subject=Email%20sent%20from%20alejandrologuercio.com`}>{emailUser}@{emailDomain}</a>
-          </p>
-          <p>
-            <a href={`tel:${phone1}${phone2}`}>{phone1}{phone2}</a>
-          </p>
+          <Link to="/contact">{data.kontakt.link}</Link>
         </div>
       </ContactDiv>
+    
     </Container>
   )
 }
