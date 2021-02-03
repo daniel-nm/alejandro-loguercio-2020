@@ -76,7 +76,7 @@ const ContactForm = ({transition}) => {
       }
  
     }
-  }, []);
+  }, [messageSent, messageFailed, counter]);
 
 
   return (
