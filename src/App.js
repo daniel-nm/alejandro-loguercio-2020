@@ -18,8 +18,8 @@ import Biography from "./pages/Biography";
 import Projects from "./pages/Projects";
 import Project from "./pages/Project";
 import Classes from "./pages/Classes";
+import Contact from "./pages/Contact";
 
-// TODO: needs adding additional routes
 // Routes
 const routes = [
   {path: "/", name: "Home", Component: Home},
@@ -27,6 +27,7 @@ const routes = [
   {path: "/projects", name: "Projects", Component: Projects},
   {path: "/project/:id", name: "Project", Component: Project},
   {path: "/unterricht", name: "Classes", Component: Classes},
+  {path: "/contact", name: "Contact", Component: Contact},
 ]
 
 function App() {
