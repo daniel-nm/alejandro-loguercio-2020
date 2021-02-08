@@ -43,7 +43,7 @@ export const ImgDiv = styled(motion.div)`
   }
 
   @media screen and (min-width: 64em) {
-    flex: 1;
+    flex: 2;
     height: 100vh;
     width: 100%;
   }

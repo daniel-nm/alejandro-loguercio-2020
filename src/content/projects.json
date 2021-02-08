@@ -74,12 +74,12 @@
         "url": "garufa",
         "other": {
           "previous": "crossmopolitans",
-          "next": "max-steiner"
+          "next": "max-steiner-orchestra"
         }
       },
       {
         "id": 3,
-        "title": "Max Steiner",
+        "title": "Max Steiner Orchestra",
         "description": "Alejandro Loguercio has been 1st concertmaster of the Max Steiner Orchestra since it was founded in 2013...",
         "text": [
           {
@@ -96,7 +96,7 @@
           "secondary": "alejandro-loguercio-front-holding-violin.jpg"
         },
         "iframe": "https://www.youtube.com/embed/7xl-yE-P7NM?color=white&modestbranding=1&rel=0&theme=light",
-        "url": "max-steiner",
+        "url": "max-steiner-orchestra",
         "other": {
           "previous": "garufa",
           "next": "collaboration"
@@ -207,19 +207,19 @@
         "url": "garufa",
         "other": {
           "previous": "crossmopolitans",
-          "next": "max-steiner"
+          "next": "max-steiner-orchester"
         }
       },
       {
         "id": 3,
-        "title": "Max Steiner",
+        "title": "Max Steiner Orchester",
         "description": "Seit der Gründung im Jahr 2013 ist Alejandro Loguercio 1. Konzertmeister des Max-Steiner-Orchesters...",
         "text": [
           {
             "para": "Seit der Gründung im Jahr 2013 ist Alejandro Loguercio 1. Konzertmeister des Max-Steiner-Orchesters. Das junge und dynamische Orchester hat sich darauf spezialisiert, die Filmmusik- oder auch Video-Game-Musik nicht nur aufzunehmen, sondern auch in großen Konzerten aufzuführen." 
           }
         ],
-        "linkText": "Mehr über Max Steiner Orchestra!",
+        "linkText": "Mehr über Max Steiner Orchester!",
         "website": {
           "link": "https://www.maxsteinerorchestra.com/",
           "text": "www.maxsteinerorchestra.com"
@@ -229,7 +229,7 @@
           "secondary": "alejandro-loguercio-front-holding-violin.jpg"
         },
         "iframe": "https://www.youtube.com/embed/7xl-yE-P7NM?color=white&modestbranding=1&rel=0&theme=light",
-        "url": "max-steiner",
+        "url": "max-steiner-orchester",
         "other": {
           "previous": "garufa",
           "next": "collaboration"
