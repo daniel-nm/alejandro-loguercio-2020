@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import img from "../../assets/img/alejandro-loguercio-smiling.jpg";
+import img from "../../assets/img/alejandro-loguercio/alejandro-loguercio-teaching-bio.jpg";
 
 // Scroll Behaviour
 import { useInView } from "react-intersection-observer"
@@ -38,19 +38,18 @@ const ClassBio = ({ content, language }) => {
       exit="hidden"
       transition={transition}
     >
-      {/* <img className="bio__img" src={img} alt="Alejandro Loguercio" /> */}
-      {/* <h2>{data.title}</h2>
       <div className="intro">
-      <p className="highlight">{data.highlight}</p>
-      <p>{data.intro}</p>
+        <h2 className="title">{data.title}</h2>
+        <p className="highlight">{data.highlight}</p>
+        <p>{data.intro}</p>
       </div>
       <div className="training">
-      <h2>{data.subtitle1}</h2>
-      <div>
-        {data.training.map((item, index) => (
-          <p key={index}>{item.text}</p> 
-        ))}
-      </div>
+        <h2>{data.subtitle1}</h2>
+        <div>
+          {data.training.map((item, index) => (
+            <p key={index}>{item.text}</p> 
+          ))}
+        </div>
       </div>
       <div className="wien">
         <h2>{data.subtitle2}</h2>
@@ -59,39 +58,12 @@ const ClassBio = ({ content, language }) => {
         ))}
       </div>
       <div className="pedagogue">
-        <h2>{data.subtitle3}</h2>
+      <img className="bio__img" src={img} alt="Alejandro Loguercio" />
+      <h2>{data.subtitle3}</h2>
         {data.pedagogue.map((item, index) => (
           <p key={index}>{item.text}</p> 
         ))}
-      </div> */}
-
-        
-        <div className="intro">
-          <h2 className="title">{data.title}</h2>
-          <p className="highlight">{data.highlight}</p>
-          <p>{data.intro}</p>
-        </div>
-        <div className="training">
-          <h2>{data.subtitle1}</h2>
-          <div>
-            {data.training.map((item, index) => (
-              <p key={index}>{item.text}</p> 
-            ))}
-          </div>
-        </div>
-        <div className="wien">
-          <h2>{data.subtitle2}</h2>
-          {data.vienna.map((item, index) => (
-            <p key={index}>{item.text}</p> 
-          ))}
-        </div>
-        <div className="pedagogue">
-        <img className="bio__img" src={img} alt="Alejandro Loguercio" />
-        <h2>{data.subtitle3}</h2>
-          {data.pedagogue.map((item, index) => (
-            <p key={index}>{item.text}</p> 
-          ))}
-        </div>
+      </div>
     </Container>
   )
 }

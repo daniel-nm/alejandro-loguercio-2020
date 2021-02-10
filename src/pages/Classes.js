@@ -19,6 +19,7 @@ import Content from "../content/classes.json";
 
 // Context
 import LanguageContext from "../context/LanguageContext";
+import ClassFootNote from '../components/classes/ClassFootNote';
 
 const Classes = () => {
 
@@ -37,7 +38,8 @@ const Classes = () => {
       <ClassBio content={Content} language={language} />
       <ClassVideo />
       <ClassPrices content={Content} language={language} />
-      <ClassContact content={Content} language={language} />
+      {/* <ClassContact content={Content} language={language} /> */}
+      <ClassFootNote content={Content} language={language} />
       <PanelTransition />
     </Page>
   )

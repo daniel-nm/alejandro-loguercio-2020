@@ -10,7 +10,7 @@ const ProjectInfo = ({project, previousProject, nextProject, transition}) => {
       initial={{opacity: 0}}
       animate={{opacity: 1}}
       exit={{opacity: 0}}
-      transition={{transition, duration: 1, delay: 1}}
+      transition={{transition, duration: 0.75, delay: 1}}
     >
       <h1>{project.title}</h1>
       <ProjectFlex>

@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
+// **********
+// PAGE
+// **********
+
 export const Page = styled.section`
   @media screen and (min-width: 64em) {
     display: flex;
@@ -10,10 +14,15 @@ export const Page = styled.section`
   } 
 `
 
+// **********
+// MAIN IMAGE
+// **********
+
 export const ImgDiv = styled(motion.div)`
-  background-image: ${props => `url(${props.mobileImg})`};
+  background-image: ${props => `url(${props.bgImage})`};
   background-position: top;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 31.25rem;
   width: 100%;
 
@@ -24,7 +33,6 @@ export const ImgDiv = styled(motion.div)`
   }
 
   @media screen and (min-width: 64em) {
-    background-image: ${props => `url(${props.desktopImg})`};
     background-position: center;
     flex: 1;
     height: 100vh;
@@ -35,6 +43,10 @@ export const ImgDiv = styled(motion.div)`
     height: 80vh;
   }
 `
+
+// **********
+// BIO TEXT
+// **********
 
 export const TextDiv = styled(motion.div)`
   margin-top: 3rem;

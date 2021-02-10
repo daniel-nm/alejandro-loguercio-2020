@@ -14,6 +14,7 @@ import { transition, scrollView } from "../../animation/home";
 
 const HomeContact = ({content, language}) => {
 
+  // JSON data
   const data = content[language].contact;
 
   const animation = useAnimation();

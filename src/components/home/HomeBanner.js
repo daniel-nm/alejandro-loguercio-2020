@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import mobileImg from "../../assets/img/WDSC_4468.jpg";
-import desktopImg from '../../assets/img/WDSC_4468.jpg';
+import bannerImg from "../../assets/img/alejandro-loguercio/alejandro-loguercio.jpg";
 
 // Styles
 import { Container } from "../../styles/globalStyles";
@@ -13,15 +12,16 @@ import { transition, parent, slideUp } from "../../animation/home";
 
 const HomeBanner = ({ content, language }) => {
 
+  // JSON data
   const data = content[language].banner;
 
   return (
     <SectionFlex>
       <Div className="banner__img">
         <BannerImg
-          srcSet={`${mobileImg} 907w, ${desktopImg} 1516w`}
+          srcSet={`${bannerImg} 907w, ${bannerImg} 1516w`}
           sizes={`(max-width: 768px) 100vw, 100vw`}
-          src={mobileImg} 
+          src={bannerImg} 
           alt="Alejandro Loguercio" 
           initial={{opacity: 0}}
           animate={{opacity: 1}}

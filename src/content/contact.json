@@ -10,7 +10,13 @@
     "success": "Thank you for your message! I will contact you as soon as possible.",
     "error": "I am sorry, your message could not been sent at the moment. Please, try again later.",
     "count": "This message will close in",
-    "seconds": "seconds." 
+    "seconds": "seconds.",
+    "errors": {
+      "email": "Invalid email address",
+      "phone": "Phone number is invalid"
+    },
+    "privacyLink": "I have read the Privacy Policy notes.",
+    "privacyText": "I agree that my details and data will be collected and stored electronically to answer my request. Note: You can revoke your consent at any time for the future by sending an email to contact@alejandrologuercio.com" 
   },
   "de": {
     "title": "Buche eine gratis Schnupperstunde!",
@@ -23,7 +29,13 @@
     "success": "Danke für deine Nachricht! Ich werde mich so schnell wie möglich bei Ihnen melden.",
     "error": "Es tut mir leid, Ihre Nachricht konnte im Moment nicht gesendet werden. Bitte versuchen Sie es später noch einmal.",
     "count": "Diese Nachricht wird in",
-    "seconds": "geschlossen."
+    "seconds": "geschlossen.",
+    "errors": {
+      "email": "Ungültige E-Mail-Adresse",
+      "phone": "Die Telefonnummer ist ungültig"
+    },
+    "privacyLink": "Ich habe die Datenschutzerklärung zur Kenntnis genommen.",
+    "privacyText": "Ich stimme zu, dass meine Angaben und Daten zur Beantwortung meiner Anfrage elektronisch erhoben und gespeichert werden. Hinweis: Sie können Ihre Einwilligung jederzeit für die Zukunft per E-Mail an contact@alejandrologuercio.com widerrufen."
   }
   
 }

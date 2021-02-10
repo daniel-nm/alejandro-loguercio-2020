@@ -55,7 +55,7 @@ export const Page = styled.section`
       margin-top: 10rem;
     }
     @media screen and (min-width: 120em) {
-      max-width: 50vw;
+      max-width: 70vw;
     }
   }
 
@@ -96,11 +96,13 @@ export const FlexDiv = styled(motion.div)`
 // Teaching section
 export const TeachingDiv = styled(motion.div)`
   @media screen and (min-width: 64em) {
+
+    width: 100%;
+
     &:first-of-type {
       text-align: right;
 
       p {
-        width: 90%;
         margin-left: auto;
       }
     }
@@ -111,7 +113,7 @@ export const TeachingDiv = styled(motion.div)`
       margin-bottom: 10rem;
 
       p {
-        width: 90%;
+        /* width: 90%; */
       }
     }
   }
@@ -127,29 +129,51 @@ export const TeachingDiv = styled(motion.div)`
       }  
     }
   }
+
+  .intro {
+    @media screen and (min-width: 64em) {
+      width: 85.4167%;
+      margin: 0 auto;
+    }
+  }
 `
 
 // Image
 export const ImgDiv = styled(motion.div)`
-  background-image: ${props => `url(${props.mobileImg})`};
+  background-image: ${props => `url(${props.bgImage})`};
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 31.25rem;
-  width: 100%;
+  width: 100vw;
+  margin: 0 calc(-50vw + 50%);
 
   @media screen and (min-width: 48em) {
     height: 34.375rem;
+    width: 100vw;
   }
 
   @media screen and (min-width: 64em) {
     height: 60vh;
+    margin: 0;
+    width: 100%;
   }
 `
 
 // Prices section
 export const PricesContainer = styled(motion.div)`
   max-width: 1440px;
-  margin: 0 auto 10rem;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    margin: 2rem 0 1rem;
+    text-align: left;
+    font-size: 1.25rem;
+  }
 
   h3 {
     text-align: center;
@@ -160,6 +184,12 @@ export const PricesContainer = styled(motion.div)`
     @media screen and (min-width: 64em) {
       margin-top: 4rem;
     }
+  }
+
+  ul {
+    margin-top: -1rem;
+    padding-left: 0;
+    list-style-position: inside;
   }
 
   @media screen and (min-width: 44em) {
@@ -270,15 +300,20 @@ export const Card = styled.div`
 `
 
 export const VatDiv = styled.div`
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  
+  max-width: 1440px;
+  margin: 0 auto 1rem;
 `
 
 // Footnote in prices section
 export const Footnote = styled.p`
   font-size: 0.85rem;
   color: var(--light-gray);
+  max-width: 1440px;
+  margin: 0 auto;
+
+  &:last-of-type {
+    margin-bottom: 5rem !important;
+  }
 `
 
 // Contact section
@@ -286,14 +321,11 @@ export const ContactDiv = styled.div`
   background-color: var(--white);
   border: 1px solid #CCCED6;
   box-shadow: 10px -10px 10px 0px rgba(0,0,0,0.16);
-  position: relative;
-  top: 48px;
   z-index: 3;
   padding: 2rem 3rem;
+  margin: 5rem auto;
 
   @media screen and (min-width: 48em) {
-    width: 56.667%;
-    margin: 10rem auto 0;
     padding: 3rem 2rem;
   }
 
@@ -302,7 +334,6 @@ export const ContactDiv = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 6.75rem 4rem;
-    margin-top: 15rem;
   }
 
   p {

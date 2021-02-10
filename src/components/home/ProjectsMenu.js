@@ -15,6 +15,7 @@ import { transition, parent, slideDown } from "../../animation/home";
 
 const ProjectsMenu = ({ content, toggleMenu, setToggleMenu, language }) => {
 
+  // JSON data
   const data = content[language].data;
 
   // Location

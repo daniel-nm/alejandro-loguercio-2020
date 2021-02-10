@@ -16,6 +16,7 @@ import PanelTransition from "../components/panel/PanelTransition";
 
 const Home = () => {
 
+  // App language
   const [language] = useContext(LanguageContext);
 
   return (

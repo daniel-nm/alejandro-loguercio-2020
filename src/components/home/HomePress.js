@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 
 // Styles
 import { Container } from "../../styles/globalStyles";
@@ -13,6 +13,7 @@ import { scrollView, transition } from "../../animation/home";
 
 const HomePress = ({ content, language }) => {
 
+  // JSON data
   const data = content[language].press;
 
   // Scroll animation

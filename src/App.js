@@ -19,6 +19,7 @@ import Projects from "./pages/Projects";
 import Project from "./pages/Project";
 import Classes from "./pages/Classes";
 import Contact from "./pages/Contact";
+import Policy from "./pages/Policy";
 
 // Routes
 const routes = [
@@ -28,6 +29,7 @@ const routes = [
   {path: "/project/:id", name: "Project", Component: Project},
   {path: "/unterricht", name: "Classes", Component: Classes},
   {path: "/contact", name: "Contact", Component: Contact},
+  {path: "/privacy-policy", name: "Policy", Component: Policy},
 ]
 
 function App() {

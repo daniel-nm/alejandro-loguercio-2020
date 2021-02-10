@@ -92,8 +92,8 @@
           "text": "www.maxsteinerorchestra.com"
         },
         "images": {
-          "main": "max-steiner/alejandro_loguercio_max_steiner_tuning.jpeg",
-          "secondary": "alejandro-loguercio-front-holding-violin.jpg"
+          "main": "max-steiner/alejandro_loguercio_max_steiner_tuning.jpg",
+          "secondary": "max-steiner/max-steiner-orchester.jpg"
         },
         "iframe": "https://www.youtube.com/embed/7xl-yE-P7NM?color=white&modestbranding=1&rel=0&theme=light",
         "url": "max-steiner-orchestra",
@@ -120,13 +120,13 @@
         "linkText": "More about collaboration with other musicians",
         "website": "",
         "images": {
-          "main": "collaboration/collaboration-artists-concert.jpg",
-          "secondary": "alejandro-loguercio-smiling.jpg"
+          "main": "collaboration/collaboration.jpeg",
+          "secondary": "collaboration/alejandro-loguercio-holding-violin.jpg"
         },
         "iframe": "https://www.youtube.com/embed/-KL7aDA8DWM?color=white&modestbranding=1&rel=0&theme=light",
         "url": "collaboration",
         "other": {
-          "previous": "max-steiner",
+          "previous": "max-steiner-orchestra",
           "next": ""
         }
       }
@@ -225,8 +225,8 @@
           "text": "www.maxsteinerorchestra.com"
         },
         "images": {
-          "main": "max-steiner/alejandro_loguercio_max_steiner_tuning.jpeg",
-          "secondary": "alejandro-loguercio-front-holding-violin.jpg"
+          "main": "max-steiner/alejandro_loguercio_max_steiner_tuning.jpg",
+          "secondary": "max-steiner/max-steiner-orchester.jpg"
         },
         "iframe": "https://www.youtube.com/embed/7xl-yE-P7NM?color=white&modestbranding=1&rel=0&theme=light",
         "url": "max-steiner-orchester",
@@ -253,13 +253,13 @@
         "linkText": "Mehr über zusammenarbeit mit anderen musikern",
         "website": "",
         "images": {
-          "main": "collaboration/collaboration-artists-concert.jpg",
-          "secondary": "alejandro-loguercio-smiling.jpg"
+          "main": "collaboration/collaboration.jpeg",
+          "secondary": "collaboration/alejandro-loguercio-holding-violin.jpg"
         },
         "iframe": "https://www.youtube.com/embed/-KL7aDA8DWM?color=white&modestbranding=1&rel=0&theme=light",
         "url": "collaboration",
         "other": {
-          "previous": "max-steiner",
+          "previous": "max-steiner-orchester",
           "next": ""
         }
       }

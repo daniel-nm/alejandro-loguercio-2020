@@ -1,4 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
@@ -32,6 +33,10 @@ const ContactForm = ({transition}) => {
   // Regex for phone validation
   const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
 
+  // Variables for obfuscation
+  const emailName = "contact";
+  const emailDomain = "alejandrologuercio.com"
+
   // Send email with EmailJS
   const sendEmail = (values) => {
     
@@ -40,7 +45,7 @@ const ContactForm = ({transition}) => {
       phone: values.phone,
       email: values.email,
       message: values.message,
-      to: "Dan"
+      to: "Alejandro"
     }
 
     emailjs.send(
@@ -48,12 +53,10 @@ const ContactForm = ({transition}) => {
       "contact_form",
       templateParams,
       "user_uriqfbnnMSH3UzcLOyyIR"
-    ).then((result) => {
-      console.log(result.text);
+    ).then(() => {
       setMessageSent(true);
       setMessageFailed(false);
-    }, (error) => {
-        console.log(error.text);
+    }, () => {
         setMessageSent(false);
         setMessageFailed(true);
     });
@@ -96,14 +99,14 @@ const ContactForm = ({transition}) => {
           }}
           validationSchema={Yup.object({
             name: Yup.string()
-            .required("Required"),
+            .required(`${data.required}`),
             email: Yup.string()
-            .email("Invalid email address")
-            .required("Required"),
+            .email(`${data.errors.email}`)
+            .required(`${data.required}`),
             phone: Yup.string()
-            .matches(phoneRegExp, "Phone number is invalid"),
+            .matches(phoneRegExp, `${data.errors.phone}`),
             message: Yup.string()
-            .required("Required")
+            .required(`${data.required}`)
           })} 
           onSubmit={(values, { resetForm }) => {
             console.log(values);
@@ -163,7 +166,9 @@ const ContactForm = ({transition}) => {
             <span>{data.count} {counter} {data.seconds}</span>
           </Message>
         )}
-
+        <p className="privacy">
+         <Link to="/privacy-policy">{data.privacyLink}</Link> {data.privacyText}
+        </p>
         <hr/>
         <ContactDetails>
           <h2>{data.subtitle}</h2>
@@ -179,9 +184,10 @@ const ContactForm = ({transition}) => {
                 </path>
               </svg>
             </span>
-            <span>0043 69910511139</span>
+            <span style={{direction: "rtl", unicodeBidi: "bidi-override"}}>93111501996 3400</span>
           </a>
-          <a href="mailto: contact@alejandrologuercio.com">
+          
+          <a href={`mailto: ${emailName}@${emailDomain}`}>
             <span>
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
@@ -194,8 +200,7 @@ const ContactForm = ({transition}) => {
               <path d="M2 12H9V14H2zM4 15H10V17H4zM7 18H11V20H7z"></path>
             </svg>
             </span>
-            <span>contact@alejandrologuercio.com</span>
-            
+            <span>{emailName}@{emailDomain}</span>
           </a>
         </ContactDetails>
     

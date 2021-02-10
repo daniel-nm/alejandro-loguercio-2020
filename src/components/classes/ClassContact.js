@@ -6,7 +6,6 @@ import { useInView } from "react-intersection-observer"
 import { useAnimation } from "framer-motion"
 
 // Styles
-import { Container } from "../../styles/globalStyles";
 import { ContactDiv } from "../../styles/components/classesStyles";
 
 // Motion
@@ -30,7 +29,7 @@ const ClassContact = ({ content, language}) => {
   }, [animation, inView]);
 
   return (
-    <Container
+    <div
       ref={contentRef}
       animate={animation}
       initial="hidden"
@@ -45,7 +44,7 @@ const ClassContact = ({ content, language}) => {
         </div>
       </ContactDiv>
     
-    </Container>
+    </div>
   )
 }
 

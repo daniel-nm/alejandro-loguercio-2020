@@ -1,9 +1,6 @@
 import React from 'react'
+import image from "../../assets/img/alejandro-loguercio/alejandro-loguercio-smiling.jpg";
 
-// Images
-// TODO: these images need changing
-import mobileImg from "../../assets/img/alejandro-loguercio-looking-down.jpg";
-import desktopImg from "../../assets/img/alejandro-loguercio-holding-violin.jpg";
 
 // Styles
 import { ImgDiv } from "../../styles/components/contactStyles";
@@ -12,8 +9,7 @@ const ContactImg = ({ transition }) => {
   return (
     <>
       <ImgDiv
-        mobileImg={mobileImg}
-        desktopImg={desktopImg}
+        bgImage={image}
         initial={{opacity: 0}}
         animate={{opacity: 1}}
         exit={{opacity: 0}}

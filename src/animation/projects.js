@@ -8,7 +8,7 @@ export const parent = {
   animate: {
     transition: {
       staggerChildren: 0.2,
-      delayChildren: 1
+      delayChildren: 0.5
     }
   }
 }

@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 
+import ClassContact from "./ClassContact";
+
 // Scroll Behaviour
 import { useInView } from "react-intersection-observer"
 import { useAnimation } from "framer-motion"
@@ -39,11 +41,20 @@ const ClassPrices = ({content, language}) => {
     >
     <PricesContainer>
       <h2>{data.title}</h2>
-      {data.text.slice(0,2).map((item) => (
+      <h3 className="subtitle">{data.subtitle}</h3>
+      {data.text.slice(0,1).map((item) => (
         <p key={item.id}>{item.para}</p>
       ))}
+      {/* List */}
+      <ul>
+        {data.list.map((item) => (
+        <li key={item.id}>{item.text}</li>
+        ))}
+      </ul>
+      
+
       {/* 30 minuten */}
-      <h3>{data.subtitle}</h3>
+      <h3>{data.subtitle2}</h3>
       <div className="flex">
         {data.prices.slice(0,2).map((item) => (
           <Card 
@@ -66,7 +77,7 @@ const ClassPrices = ({content, language}) => {
         ))}
       </div>
       {/* 50 minuten */}
-      <h3>{data.subtitle2}</h3>
+      <h3>{data.subtitle3}</h3>
       <div className="flex">
       {data.prices.slice(2,4).map((item) => (
           <Card 
@@ -88,14 +99,7 @@ const ClassPrices = ({content, language}) => {
           </Card>
         ))}
       </div>
-      <VatDiv>
-      {data.text.slice(2,4).map((item) => (
-        <p key={item.id}>{item.para}</p>
-      ))}
-      </VatDiv>
-      {data.footnote.map((item) => (
-        <Footnote key={item.id}>{item.para}</Footnote>
-      ))}
+      <ClassContact content={content} language={language} />
       </PricesContainer>
     </Container>
   )

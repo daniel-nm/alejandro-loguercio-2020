@@ -11,9 +11,10 @@ export const Page = styled.section`
 `
 
 export const ImgDiv = styled(motion.div)`
-  background-image: ${props => `url(${props.mobileImg})`};
+  background-image: ${props => `url(${props.bgImage})`};
   background-position: top;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 31.25rem;
   width: 100%;
 
@@ -24,15 +25,14 @@ export const ImgDiv = styled(motion.div)`
   }
 
   @media screen and (min-width: 64em) {
-    background-image: ${props => `url(${props.desktopImg})`};
-    background-position: right;
+    background-position: center;
     flex: 1;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
   }
 
   @media screen and (min-width: 137em) {
-    height: 80vh;
+    height: 84vh;
   }
 `
 
@@ -56,6 +56,12 @@ export const ContactFormDiv = styled(motion.div)`
   hr {
     border: 1px solid #CCCED6;
     margin-bottom: 2rem;
+  }
+
+  .privacy {
+    color: var(--dark-gray);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
   }
 
 `

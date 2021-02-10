@@ -1,6 +1,31 @@
 {
   "en": {
     "title": "Preisliste",
+    "subtitle": "Einzelunterricht Geige",
+    "subtitle2": "30 Minuten",
+    "subtitle3": "50 Minuten",
+    "list": [
+      {
+        "id": 0,
+        "text": "Unterricht in exklusivem Musik-Atelier"
+      },
+      {
+        "id": 1,
+        "text": "16 Einheiten Einzelunterricht"
+      },
+      {
+        "id": 2,
+        "text": "5 Einheiten Theorie-Unterricht (ca. 1x pro Monat)"
+      },
+      {
+        "id": 3,
+        "text": "Von mir selbst geschriebenes und individuell zusammengestelltes Unterrichtsmaterial"
+      },
+      {
+        "id": 4,
+        "text": "1 Abschlusskonzert für Freunde und Verwandte inkl. Video-Aufnahme als Erinnerung"
+      }
+    ],
     "text": [
       {
         "id": 0,
@@ -136,19 +161,38 @@
   },
   "de": {
     "title": "Preisliste",
-    "subtitle": "30 Minuten",
-    "subtitle2": "50 Minuten",
-    "text": [
+    "subtitle": "Einzelunterricht Geige",
+    "subtitle2": "30 Minuten",
+    "subtitle3": "50 Minuten",
+    "list": [
       {
         "id": 0,
-        "para": "Geigen Einzelunterricht"
+        "text": "Unterricht in exklusivem Musik-Atelier"
       },
       {
         "id": 1,
-        "para": "Preise für 18 Einheiten pro Semester (September-Januar, Februar-Juni)"
+        "text": "16 Einheiten Einzelunterricht"
       },
       {
         "id": 2,
+        "text": "5 Einheiten Theorie-Unterricht (ca. 1x pro Monat)"
+      },
+      {
+        "id": 3,
+        "text": "Von mir selbst geschriebenes und individuell zusammengestelltes Unterrichtsmaterial"
+      },
+      {
+        "id": 4,
+        "text": "1 Abschlusskonzert für Freunde und Verwandte inkl. Video-Aufnahme als Erinnerung"
+      }
+    ],
+    "text": [
+      {
+        "id": 0,
+        "para": "Im Preis inkludiert pro Semester:"
+      },
+      {
+        "id": 1,
         "para": "*Alle Preise sind Bruttopreise. Änderungen vorbehalten."
       }
     ],
@@ -167,26 +211,26 @@
         "id": 0,
         "time": "Monat",
         "minutes": 30,
-        "price": 105 
+        "price": 115 
       },
       {
         "id": 1,
         "time": "Semester",
         "minutes": 30,
-        "price": 500,
+        "price": 520,
         "background": "dark"  
       },
       {
         "id": 2,
         "time": "Monat",
         "minutes": 50,
-        "price": 160 
+        "price": 165 
       },
       {
         "id": 3,
         "time": "Semester",
         "minutes": 50,
-        "price": 750,
+        "price": 790,
         "background": "dark"  
       }
     ],

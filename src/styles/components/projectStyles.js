@@ -1,9 +1,11 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-// Page
-export const Page = styled(motion.section)`
+// **********
+// PAGE
+// **********
 
+export const Page = styled(motion.section)`
   .page__path {
     margin-bottom: 1rem;
     font-size: 0.85rem;
@@ -21,14 +23,16 @@ export const Page = styled(motion.section)`
     max-width: 1980px;
     margin: 0 auto 5rem;
 
-    .project__info {
-      flex: 2
-    }
-  } 
+      .project__info {
+        flex: 2
+      }
+    } 
   }
-  
 `
 
+// **********
+// MAIN IMAGE
+// **********
 export const ImgDiv = styled(motion.div)`
   background-image: ${props => `url(${props.img})`};
   background-position: top;
@@ -53,6 +57,9 @@ export const ImgDiv = styled(motion.div)`
   }
 `
 
+// **********
+// PROJECT INFO
+// **********
 export const ProjectDivInfo = styled(motion.div)`
   width: 85.4167%;
   margin: 0 auto 5rem;  

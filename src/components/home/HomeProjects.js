@@ -19,6 +19,7 @@ import { Projects, Project } from "../../styles/components/homeStyles";
 
 const HomeProjects = ({ content, language }) => {
 
+  // JSON data
   const data = ProjectsContent[language].data;
 
   // Animation

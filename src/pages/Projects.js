@@ -18,6 +18,7 @@ import { transition, parent, slideUp} from "../animation/projects";
 
 const Projects = () => {
 
+  // JSON data
   const [language] = useContext(LanguageContext);
 
   return (
@@ -33,7 +34,7 @@ const Projects = () => {
             <Project
               bg={require(`../assets/img/${project.images.main}`).default}
               variants={slideUp} 
-              transition={{...transition, duration: 1.25}}
+              transition={{...transition, duration: 1}}
             >
               <div>
                 <h2>{project.title}</h2>
