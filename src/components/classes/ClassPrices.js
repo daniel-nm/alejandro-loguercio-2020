@@ -11,7 +11,7 @@ import { transition, scrollView } from "../../animation/classes";
 
 // Styles
 import { Container } from "../../styles/globalStyles";
-import { PricesContainer, Card, VatDiv, Footnote } from "../../styles/components/classesStyles";
+import { PricesContainer, Card } from "../../styles/components/classesStyles";
 
 const ClassPrices = ({content, language}) => {
 
