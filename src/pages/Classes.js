@@ -5,7 +5,6 @@ import ClassText from "../components/classes/ClassText";
 import ClassBio from "../components/classes/ClassBio";
 import ClassVideo from "../components/classes/ClassVideo";
 import ClassPrices from "../components/classes/ClassPrices";
-import ClassContact from '../components/classes/ClassContact';
 import PanelTransition from "../components/panel/PanelTransition";
 
 // Styles
@@ -38,7 +37,6 @@ const Classes = () => {
       <ClassBio content={Content} language={language} />
       <ClassVideo />
       <ClassPrices content={Content} language={language} />
-      {/* <ClassContact content={Content} language={language} /> */}
       <ClassFootNote content={Content} language={language} />
       <PanelTransition />
     </Page>
