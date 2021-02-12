@@ -11,6 +11,7 @@ import { GlobalStyle } from "./styles/globalStyles";
 // Components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import NotFoundPage from "./components/NotFoundPage";
 
 // Pages
 import Home from "./pages/Home";
@@ -54,6 +55,7 @@ function App() {
               <Component />
             </Route>
           ))}
+          <Route path="*" component={NotFoundPage} />
         </Switch>
       </AnimatePresence>
       <Footer />

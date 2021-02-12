@@ -151,15 +151,15 @@ const Navigation = ({toggleMenu, setToggleMenu}) => {
                 }
                 {/* Social icons */}
                 <NavFooterSocial>
-                  <motion.a variants={footerSlideUp}
+                  <motion.a rel="noreferrer" target="_blank" variants={footerSlideUp}
                   transition={{...transition, duration: 1.5}} href="https://www.facebook.com/alejandrologuercio.official/">
                     <Facebook />
                   </motion.a>
-                  <motion.a variants={footerSlideUp}
+                  <motion.a rel="noreferrer" target="_blank" variants={footerSlideUp}
                   transition={{...transition, duration: 1.5}} href="https://www.instagram.com/alejandrologuercio/">
                     <Instagram />
                   </motion.a>
-                  <motion.a variants={footerSlideUp}
+                  <motion.a rel="noreferrer" target="_blank" variants={footerSlideUp}
                   transition={{...transition, duration: 1.5}} href="https://www.youtube.com/channel/UCrFn_dbPa5x6_mX6NwBmw1A">
                     <Youtube />
                   </motion.a>
