@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import emailjs from "emailjs-com";
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
@@ -18,6 +18,8 @@ import { ContactFormDiv, Button, ContactDetails, Message } from "../../styles/co
 
 
 const ContactForm = ({transition}) => {
+
+  const history = useHistory();
 
   // App language
   const [language] = useContext(LanguageContext);
@@ -54,8 +56,10 @@ const ContactForm = ({transition}) => {
       templateParams,
       "user_uriqfbnnMSH3UzcLOyyIR"
     ).then(() => {
-      setMessageSent(true);
-      setMessageFailed(false);
+      // setMessageSent(true);
+      // setMessageFailed(false);
+      history.push("/thank-you");
+      
     }, () => {
         setMessageSent(false);
         setMessageFailed(true);
@@ -138,7 +142,7 @@ const ContactForm = ({transition}) => {
               label={data.phone}
               name="phone"
               type="tel"
-              placeholder="e.g. 06603777763"
+              placeholder="e.g. 069910511139"
             />
           </div>
           <div>
